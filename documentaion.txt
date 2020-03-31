@@ -1,0 +1,50 @@
++------------------------------------+
+|              Invoice               |
++------------------------------------+
+
+    To query data from the invoice table, you have to call it
+in the following ways:
+
+- To get all invoices:
+    http://0.0.0.0:1909/get/invoices
+
+- To get the invoice with id (for ex. 10):
+    http://0.0.0.0:1909/get/invoice/10
+
+- To get all invoices with specific options or arguments
+    http://0.0.0.0:1909/get/invoices?arg_1=val_1
+
+    - Possible arguments with their values are: 
+        - [ region ] : to get the invoice for a given region. 
+          The supported value should be a number (integer), 
+          i.e the region id
+          ex: http://0.0.0.0:1909/get/invoices?region=1
+
+-------------------------------------
+
+- To add an invoice, use the POST method at:
+    http://0.0.0.0:1909/add/invoice, then pass the following 
+    composary arguments:
+        - region_id (int)
+        - exporter (string)
+        - stockage (string)
+        - vessel (string)
+        - exporter_date (string with format "%dd/%mm/%yy")
+        - finance_ref = (int)
+        - exporter_ref = (int)
+
+-------------------------------------
+
+- To update, it's similar to adding but differs in the link and the 
+Method which is 'PUT' in this case:
+    http://0.0.0.0:1909/update/invoice/invoice_id
+    then just pass in the argument(s) you want to update for that
+    invoice.
+    For example, update the exporter_date and exporter for invoice 
+    with id 10, do like this:
+    http://0.0.0.0:1909/update/invoice/invoice_id?exporter_date=dd/mm/yy&exporter=new_exporter
+
+------------------------------------
+
+- To distribute to other regions, just update the region as described
+for updates above

@@ -1,0 +1,28 @@
+{
+    "invoice_data": {
+        "delivery": "Cameroun, Douala",
+        "exporter": "Tokyoshima",
+        "stockage": "Yaounde, Nkomkana",
+        "vessel": "Air, Boeing 577A1",
+        "invoice_date": "03/27/20",
+        "invoice_no": "011551GE"
+    },
+    "batches": [
+        {
+            "description": "Packet of paracetamol+efferalgan",
+            "batch_no": "0014",
+            "quantity": 77,
+            "num_of_ships": 4,
+            "mfg-date": "06/21/21",
+            "exp-date": "01/22/21"
+        },
+        {
+            "description": "Fervex 500mg+Doliprane effervecent 100mg",
+            "batch_no": "0014",
+            "quantity": 877,
+            "num_of_ships": 4,
+            "mfg_date": "06/27/21",
+            "exp_date": "01/29/21"
+        }
+    ]
+}
