@@ -36,7 +36,7 @@ class Batch(db.Model):
     exp_date = db.Column(db.DateTime, nullable=False)
     description = db.Column(db.Text(500), nullable=False)
 
-    invoice_no = db.Column(db.Integer, db.ForeignKey('invoice.invoice_no'), nullable=False)
+    invoice_no = db.Column(db.String(50), db.ForeignKey('invoice.invoice_no'), nullable=False)
 
     def jsonify(self):
         return {
