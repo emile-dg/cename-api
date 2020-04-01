@@ -22,7 +22,9 @@ class Invoice(db.Model):
             'stockage': self.stockage,
             'vessel': self.vessel,
             'delivery': self.delivery,
-            'invoice_date': self.invoice_date.strftime("%m-%d-%y")
+            'invoice_date': "{0}-{1}-{2}".format(self.invoice_date.year,
+                                                self.invoice_date.month,
+                                                self.invoice_date.day)
         }
 
 class Batch(db.Model):
@@ -38,11 +40,16 @@ class Batch(db.Model):
 
     def jsonify(self):
         return {
+            "invoice_no": self.invoice_no,
             "batch_no" : self.batch_no,
             "quantity" : self.quantity,
             "num_of_ships" : self.num_of_ships,
-            "mfg_date" : self.mfg_date.strftime("%m-%d-%y"),
-            "exp_date" : self.exp_date.strftime("%m-%d-%y"),
+            "mfg_date" : "{0}-{1}-{2}".format(self.mfg_date.year,
+                                                self.mfg_date.month,
+                                                self.mfg_date.day),
+            "exp_date" : "{0}-{1}-{2}".format(self.exp_date.year,
+                                                self.exp_date.month,
+                                                self.exp_date.day),
             "description": self.description
         }
 
@@ -65,15 +72,3 @@ class Distribution(db.Model):
 
     def jsonify(self):
         return {key:value for key, value in self.__dict__.items() if not key.startswith("__") and not callable(key)}
-
-
-# class Region(db.Model):
-#     region_id = db.Column(db.Integer, primary_key=True)
-#     region_name = db.Column(db.String(150), unique=True, nullable=False)
-#     invoices = db.relationship("Invoice", backref=db.backref('region', lazy=True))
-
-#     def jsonify(self):
-#         return {
-#             'region_id': self.region_id,
-#             'region_name': self.region_name
-#         }

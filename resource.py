@@ -51,36 +51,29 @@ class Get_invoice(BaseResource):
     def __init__(self):
         super().__init__()
         self.arguments_list = []
-        # self.init_args()
-        # self.args = self.parse_args()
 
-    # @cors.crossdomain(origin="*")
     def get(self, invoice_no=None):
         if invoice_no:
             # if the request is for a particular row
-            temp = Invoice.query.get(invoice_no) 
-            if temp:
-                query = [temp] 
+            inv = Invoice.query.get(invoice_no) 
+            if inv:
+                query = [inv] 
+                bat = inv.batches
+                response = {"invoice": self.parse_query(query)[0],
+                            "batches": self.parse_query(bat)}
             else:
                 query = [] # should be a list
+                response = {}
         else:
             # else get all the tables
             query = Invoice.query.all()
+            response = self.parse_query(query)
 
-        return self.parse_query(query)
+        return response
 
 class Add_invoice(BaseResource):
     def __init__(self):
         super().__init__()
-        self.arguments_list = [
-            {'name': 'data', 'type': str, 'help':''},
-        ]
-        self.init_args()
-        self.args = self.parse_args()
-
-    # @staticmethod
-    # def convert_to_date(s):
-    #     return datetime.strptime(s, "%m/%d/%y")
 
     def missing_args(self):
         if request.data == "":
