@@ -12,6 +12,8 @@ class Invoice(db.Model):
     vessel = db.Column(db.String(50), nullable=False)
     delivery = db.Column(db.String(50), nullable=False)
     invoice_date = db.Column(db.DateTime, nullable=False)
+    created_on = db.Column(db.DateTime, default=datetime.now)
+    last_update = db.Column(db.DateTime, default=datetime.now)
 
     batches = db.relationship("Batch", backref="invoice",  cascade="all,delete", lazy=True)
 
@@ -67,8 +69,14 @@ class Region(db.Model):
 
 class Distribution(db.Model):
     id = db.Column(db.Integer, primary_key=True)
+    created_on = db.Column(db.DateTime, default=datetime.now)
+
     region_code = db.Column(db.Integer, db.ForeignKey('region.region_code') )
     batch_no = db.Column(db.Integer, db.ForeignKey('batch.batch_no'))
 
     def jsonify(self):
-        return {key:value for key, value in self.__dict__.items() if not key.startswith("__") and not callable(key)}
+        return {
+            'region_code': self.region_code,
+            'batch_no': self.batch_no,
+            'created_on': "{0}-{1}-{2}".format(self.created_on.year, self.created_on.month, self.created_on.day)
+        }

@@ -53,6 +53,12 @@ def add_resources(api):
                     '/get/batch/<string:batch_no>')
     api.add_resource(resource.Get_regions,
                     "/get/regions")
+    api.add_resource(resource.Make_distribution,
+                    "/make/distribution")
+    api.add_resource(resource.Get_distribution, 
+                    '/get/distributions',
+                    '/get/distribution/<string:region_code>')
+                    
 
 if __name__ == "__main__":
 
