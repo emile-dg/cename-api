@@ -61,9 +61,9 @@ class Get_invoice(BaseResource):
                 bat = inv.batches
                 response = {"invoice": self.parse_query(query)[0],
                             "batches": self.parse_query(bat)}
+            
             else:
-                query = [] # should be a list
-                response = {}
+                return {'message': "no such invoice"}, 500
         else:
             # else get all the tables
             query = Invoice.query.all()
@@ -111,9 +111,14 @@ class Add_invoice(BaseResource):
         invoice_dict['invoice_date'] = self.convert_to_date(invoice_dict['invoice_date'])
         inv = Invoice(**invoice_dict)
         t_db.session.add(inv)
-        t_db.session.commit()
-        return inv.invoice_no
-        return invoice_dict['invoice_no']
+        try:
+            t_db.session.commit()
+        except:
+            t_db.session.rollback()
+            return {"message": "Error while updating the database. Probably internal."}, 500
+        finally:
+            return inv.invoice_no
+
 
     def add_batch(self, batch_dic, invoice_no):
         batch_dic['exp_date'] = self.convert_to_date(batch_dic['exp_date'])
@@ -121,7 +126,11 @@ class Add_invoice(BaseResource):
         batch_dic['invoice_no'] = invoice_no
 
         t_db.session.add(Batch(**batch_dic))
-        t_db.session.commit()
+        try:
+            t_db.session.commit()
+        except:
+            t_db.session.rollback()
+            return {"message": "Error while updating the database. Probably internal."}, 500
 
     def row_exist(self, model, pk):
         if model.query.get(pk):
@@ -177,11 +186,15 @@ class Update_invoice(BaseResource):
                 for k in json_data.keys():
                     try:
                         if k != "invoice_no":
-                            if k.endswith("date"):
+                            if k.endswith("date") or k == 'created_on':
                                 json_data[k] = self.convert_to_date(json_data[k])
                             setattr(inv, k, json_data[k])
                             inv.last_update = datetime.now()
-                            t_db.session.commit()
+                            try:
+                                t_db.session.commit()
+                            except:
+                                t_db.session.rollback()
+                                return {"message": "Error while updating the database. Probably internal."}, 500
                     except:
                         return {"messsage": "Error while updating"}, 500
                     else:
@@ -213,7 +226,11 @@ class Update_batch(BaseResource):
                     except Exception as e:
                         print(e)
                         return {"messsage": "Error while updating"}, 500
-                t_db.session.commit()
+                try:
+                    t_db.session.commit()
+                except:
+                    t_db.session.rollback()
+                    return {"message": "Error while updating the database. Probably internal."}, 500
                 return {"message": "batch updated successfully"}, 200
             else:
                 return {"message": "no such batch"}, 500
@@ -241,6 +258,7 @@ class Make_distribution(BaseResource):
                     try:
                         t_db.session.commit()
                     except:
+                        t_db.session.rollback()
                         return {"message": "Error while updating the database. Probably internal."}, 500
                     else:
                         return {"message": "distribution added successfully"}, 200
@@ -273,3 +291,46 @@ class Get_distribution(BaseResource):
             response = self.parse_query(query)
 
         return response, 200
+
+class Delete_batch(BaseResource):
+    def __init__(self):
+        super().__init__()
+
+    def delete(self, batch_no=None):
+        if batch_no:
+            bat = Batch.query.get(batch_no)
+            if bat:    
+                try:
+                    t_db.session.delete(bat)
+                    t_db.session.commit()
+                except Exception as e:
+                    print(e)
+                    t_db.session.rollback()
+                    return {'message': "Internal Error while trying to delete"}, 500
+                else:
+                    return {'message': "batch deleted successfully"}, 200
+            else:
+                return {"message": "no such batch with batch_no '%s'"%(batch_no)}, 500
+        else:
+            return {'message': "no batch_no given "}, 500
+
+class Delete_invoice(BaseResource):
+    def __init__(self):
+        super().__init__()
+
+    def delete(self, invoice_no=None):
+        if invoice_no:
+            inv = Invoice.query.get(invoice_no)
+            if inv:    
+                try:
+                    t_db.session.delete(inv)
+                    t_db.session.commit()
+                except:
+                    t_db.session.rollback()
+                    return {'message': "Internal Error while trying to delete"}, 500
+                else:
+                    return {'message': "invoice deleted successfully"}, 200
+            else:
+                return {"message": "no such invoice with invoice_no '%s'"%(invoice_no)}, 500
+        else:
+            return {'message': "no invoice_no given "}, 500

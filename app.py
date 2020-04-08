@@ -1,11 +1,21 @@
 import resource
+from sys import argv
 
 from flask import Flask, request
-from flask_restful import Api 
-from flask_cors import CORS
+from flask_restful import Api
 
-from models import db, Region
-from sys import argv
+from models import Region, db
+
+try:
+    from flask_cors import CORS  # The typical way to import flask-cors
+except ImportError:
+    # Path hack allows examples to be run without installation.
+    import os
+    parentdir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    os.sys.path.insert(0, parentdir)
+
+    from flask_cors import CORS
+
 
 def start_app(_db=None):
     app = Flask(__name__)
@@ -58,7 +68,11 @@ def add_resources(api):
     api.add_resource(resource.Get_distribution, 
                     '/get/distributions',
                     '/get/distribution/<string:region_code>')
-                    
+    api.add_resource(resource.Delete_batch,
+                    "/delete/batch/<string:batch_no>")
+    api.add_resource(resource.Delete_invoice,
+                    "/delete/invoice/<string:invoice_no>")
+          
 
 if __name__ == "__main__":
 
@@ -72,4 +86,4 @@ if __name__ == "__main__":
         db.create_all()
         prepare_db(db)
 
-    app.run(debug=True, host="0.0.0.0", port=1909)
+    app.run(debug=False, host="0.0.0.0", port=1909)

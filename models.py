@@ -15,7 +15,7 @@ class Invoice(db.Model):
     created_on = db.Column(db.DateTime, default=datetime.now)
     last_update = db.Column(db.DateTime, default=datetime.now)
 
-    batches = db.relationship("Batch", backref="invoice",  cascade="all,delete", lazy=True)
+    batches = db.relationship("Batch", backref="invoice",  single_parent=True, cascade="all, delete-orphan", lazy=True)
 
     def jsonify(self):
         return {
@@ -26,7 +26,10 @@ class Invoice(db.Model):
             'delivery': self.delivery,
             'invoice_date': "{0}-{1}-{2}".format(self.invoice_date.year,
                                                 self.invoice_date.month,
-                                                self.invoice_date.day)
+                                                self.invoice_date.day),
+            'created_on': "{0}-{1}-{2}".format(self.created_on.year,
+                                                self.created_on.month,
+                                                self.created_on.day)
         }
 
 class Batch(db.Model):
@@ -59,7 +62,7 @@ class Region(db.Model):
     region_code = db.Column(db.String(3), primary_key=True)
     region_name = db.Column(db.String(30), nullable=False)
 
-    distributions = db.relationship("Distribution", backref=db.backref('region', cascade="all,delete", lazy=True))
+    distributions = db.relationship("Distribution", backref=db.backref('region', cascade="all, delete", lazy=True))
 
     def jsonify(self):
         return {
