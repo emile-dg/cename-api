@@ -1,8 +1,7 @@
 from datetime import datetime
 
-from flask_sqlalchemy import SQLAlchemy
+from cename import db
 
-db = SQLAlchemy()
 
 class Invoice(db.Model):
     invoice_no = db.Column(db.String(50), primary_key=True)
@@ -17,8 +16,8 @@ class Invoice(db.Model):
 
     batches = db.relationship("Batch", backref="invoice",  single_parent=True, cascade="all, delete-orphan", lazy=True)
 
-    def jsonify(self):
-        return {
+    def jsonify(self, details=None):
+        response = {
             'invoice_no': self.invoice_no,
             'exporter': self.exporter,
             'stockage': self.stockage,
@@ -31,6 +30,13 @@ class Invoice(db.Model):
                                                 self.created_on.month,
                                                 self.created_on.day)
         }
+        if details:
+            if details == "low":
+                response['batches'] = [batch.jsonify() for batch in self.batches]
+            elif details == "high":
+                response['batches'] = [batch.jsonify(detailed=True) for batch in self.batches]
+
+        return response
 
 class Batch(db.Model):
     batch_no = db.Column(db.String(10), primary_key=True)
@@ -41,10 +47,12 @@ class Batch(db.Model):
     exp_date = db.Column(db.DateTime, nullable=False)
     description = db.Column(db.Text(500), nullable=False)
 
+    distributions = db.relationship("Distribution", backref=db.backref('batch', cascade="all, delete", lazy=True))
+
     invoice_no = db.Column(db.String(50), db.ForeignKey('invoice.invoice_no'), nullable=False)
 
-    def jsonify(self):
-        return {
+    def jsonify(self, detailed=False):
+        result = {
             "invoice_no": self.invoice_no,
             "batch_no" : self.batch_no,
             "quantity" : self.quantity,
@@ -57,6 +65,13 @@ class Batch(db.Model):
                                                 self.exp_date.day),
             "description": self.description
         }
+        
+        if detailed:
+            result["distributions"] = [dist.jsonify() for dist in self.distributions]
+            result["distribution count"] = len(result['distributions'])
+            result["distribution quantity"] = sum([dist.quantity for dist in self.distributions])
+
+        return result
 
 class Region(db.Model):
     region_code = db.Column(db.String(3), primary_key=True)
@@ -76,6 +91,7 @@ class Distribution(db.Model):
 
     region_code = db.Column(db.Integer, db.ForeignKey('region.region_code') )
     batch_no = db.Column(db.Integer, db.ForeignKey('batch.batch_no'))
+    quantity = db.Column(db.Integer, nullable=False)
 
     def jsonify(self):
         return {

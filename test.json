@@ -1,28 +1,122 @@
-{
-    "invoice_data": {
-        "delivery": "Cameroun, Douala",
-        "exporter": "Tokyoshima",
-        "stockage": "Yaounde, Nkomkana",
-        "vessel": "Air, Boeing 577A1",
-        "invoice_date": "03/27/20",
-        "invoice_no": "011551GE"
+[
+    {
+        "distributions": [
+            {
+                "createdAt": 1587671946662,
+                "updatedAt": 1587671946662,
+                "id": "5ea1f38a6b2d2c46dc34f6d1",
+                "created_at": 1587671946662
+            },
+            {
+                "createdAt": 1587671958839,
+                "updatedAt": 1587671958839,
+                "id": "5ea1f3966b2d2c46dc34f6d2",
+                "created_at": 1587671958839
+            },
+            {
+                "createdAt": 1587671982352,
+                "updatedAt": 1587671982352,
+                "id": "5ea1f3ae6b2d2c46dc34f6d3",
+                "created_at": 1587671982352
+            }
+        ],
+        "invoice_no": "002",
+        "description": "Lorem",
+        "batch_no": 2,
+        "quantity": 4,
+        "num_of_ships": 5,
+        "exp_date": "2019-10-09T23:00:00.000Z",
+        "mfg_date": "2019-12-11T23:00:00.000Z"
     },
-    "batches": [
-        {
-            "description": "Packet of paracetamol+efferalgan",
-            "batch_no": "0014",
-            "quantity": 77,
-            "num_of_ships": 4,
-            "mfg-date": "06/21/21",
-            "exp-date": "01/22/21"
-        },
-        {
-            "description": "Fervex 500mg+Doliprane effervecent 100mg",
-            "batch_no": "0014",
-            "quantity": 877,
-            "num_of_ships": 4,
-            "mfg_date": "06/27/21",
-            "exp_date": "01/29/21"
-        }
-    ]
-}
+    {
+        "distributions": [
+            {
+                "createdAt": 1587748527064,
+                "updatedAt": 1587748527064,
+                "id": "5ea31eaf1aa1b12515423056",
+                "created_at": 1587748527064
+            },
+            {
+                "createdAt": 1587748830295,
+                "updatedAt": 1587748830295,
+                "id": "5ea31fde1aa1b12515423057",
+                "created_at": 1587748830295
+            }
+        ],
+        "invoice_no": "002",
+        "description": "New description",
+        "batch_no": 3,
+        "quantity": 8,
+        "num_of_ships": 10,
+        "exp_date": "2013-11-10T23:00:00.000Z",
+        "mfg_date": "2012-10-09T23:00:00.000Z"
+    },
+    {
+        "distributions": [],
+        "invoice_no": "002",
+        "description": "New description",
+        "batch_no": 4,
+        "quantity": 8,
+        "num_of_ships": 10,
+        "exp_date": "2013-11-10T23:00:00.000Z",
+        "mfg_date": "2012-10-09T23:00:00.000Z"
+    },
+    {
+        "distributions": [
+            {
+                "createdAt": 1587748209097,
+                "updatedAt": 1587748209097,
+                "id": "5ea31d711aa1b12515423053",
+                "created_at": 1587748209097
+            },
+            {
+                "createdAt": 1587748437990,
+                "updatedAt": 1587748437990,
+                "id": "5ea31e551aa1b12515423054",
+                "created_at": 1587748437990
+            },
+            {
+                "createdAt": 1587748473430,
+                "updatedAt": 1587748473430,
+                "id": "5ea31e791aa1b12515423055",
+                "created_at": 1587748473430
+            }
+        ],
+        "invoice_no": "01X00",
+        "description": "This is another distribution",
+        "batch_no": 8,
+        "quantity": 12,
+        "num_of_ships": 81,
+        "exp_date": "2021-11-10T23:00:00.000Z",
+        "mfg_date": "2020-11-10T23:00:00.000Z"
+    },
+    {
+        "distributions": [
+            {
+                "createdAt": 1587749871202,
+                "updatedAt": 1587749871202,
+                "id": "5ea323ef1aa1b1251542305a",
+                "created_at": 1587749871202
+            },
+            {
+                "createdAt": 1587749898336,
+                "updatedAt": 1587749898336,
+                "id": "5ea3240a1aa1b1251542305b",
+                "created_at": 1587749898336
+            },
+            {
+                "createdAt": 1587750037939,
+                "updatedAt": 1587750037939,
+                "id": "5ea324951aa1b1251542305c",
+                "created_at": 1587750037939
+            }
+        ],
+        "invoice_no": "16565132",
+        "description": "TENOFOVIR42MG",
+        "batch_no": 186516,
+        "quantity": 78,
+        "num_of_ships": 2,
+        "exp_date": "2021-11-10T23:00:00.000Z",
+        "mfg_date": "2020-11-10T23:00:00.000Z"
+    }
+]
