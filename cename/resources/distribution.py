@@ -38,29 +38,44 @@ class Make_distribution(BaseResource):
     def post(self):
         data = self.get_request_data()
         if data != "":
-            json_data = json.loads(data)
-            region_code = json_data['region_code']
-            batch_no = json_data['batch_no']
-            
-            region = Region.query.get(region_code)
-            if region:
-                bat = Batch.query.get(batch_no)
-                if bat:
-                    dist = Distribution(region_code=region.region_code, batch_no=bat.batch_no)
-                    db.session.add(dist)
-                    try:
-                        db.session.commit()
-                    except:
-                        db.session.rollback()
-                        return {"message": "Error while updating the database. Probably internal."}, 500
-                    else:
-                        return {"message": "distribution added successfully"}, 200
-
+            try:
+                data = self.convert_data_to_dict(data)
+                check = self.validate_transaction(data)
+                if check['ok']:
+                    db.session.add(Distribution(**data))
+                    Batch.query.get(data['batch_no']).available -= int(data['quantity'])
+                    db.session.commit()
+                    return {'message': "Transaction successfull"}, 200
                 else:
-                    return {'message': "invalid batch_no '%s'"%(batch_no)}, 500
-
-            else:
-                return {"message": "invalid region_code '%s'"%(region_code)}, 500
-    
+                    return check['msg'], 500
+            except Exception as e:
+                print(e)
+                return {"message" : "Internal or Update Error"}, 500
         else:
             return {"message": "no data passed"}, 500
+
+    @staticmethod
+    def check_batch_quantity(batch, qty):
+        if int(qty) < batch.available:
+            return True
+        return False
+
+    def validate_transaction(self, transaction_data):
+        """
+        Verify and validate a distribution.
+        Steps:
+            1. Verify if the batch exists
+            2. Verify if the quantity in the batch is enough
+            3. verify if the region exists
+        """
+        batch = Batch.query.get(transaction_data['batch_no'])
+        if batch:
+            if self.check_batch_quantity(batch, transaction_data['quantity']):
+                if Region.query.get(transaction_data['region_code']):
+                    return {'ok': True, 'msg': ''}
+                else:
+                    return {'ok': False, 'msg': 'Invalid region. Operation failed'}    
+            else:
+                return {'ok': False, 'msg': 'Invalid transaction quantity. Operation failed'}
+        else:
+            return {'ok': False, 'msg': "No such batch. Operation failed"}

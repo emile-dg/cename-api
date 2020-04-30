@@ -1,6 +1,8 @@
 from datetime import datetime
+import json
 
 from cename import db
+from cename.utils import format_date
 
 
 class Invoice(db.Model):
@@ -23,12 +25,8 @@ class Invoice(db.Model):
             'stockage': self.stockage,
             'vessel': self.vessel,
             'delivery': self.delivery,
-            'invoice_date': "{0}-{1}-{2}".format(self.invoice_date.year,
-                                                self.invoice_date.month,
-                                                self.invoice_date.day),
-            'created_on': "{0}-{1}-{2}".format(self.created_on.year,
-                                                self.created_on.month,
-                                                self.created_on.day)
+            'invoice_date': format_date(self.invoice_date),
+            'created_on': format_date(self.created_on)
         }
         if details:
             if details == "low":
@@ -38,6 +36,9 @@ class Invoice(db.Model):
 
         return response
 
+    def __repr__(self):
+        return json.dumps(self.jsonify())
+
 class Batch(db.Model):
     batch_no = db.Column(db.String(10), primary_key=True)
 
@@ -45,10 +46,10 @@ class Batch(db.Model):
     num_of_ships = db.Column(db.Integer, nullable=False)
     mfg_date = db.Column(db.DateTime, nullable=False)
     exp_date = db.Column(db.DateTime, nullable=False)
+    available = db.Column(db.Integer, nullable=False)
     description = db.Column(db.Text(500), nullable=False)
 
     distributions = db.relationship("Distribution", backref=db.backref('batch', cascade="all, delete", lazy=True))
-
     invoice_no = db.Column(db.String(50), db.ForeignKey('invoice.invoice_no'), nullable=False)
 
     def jsonify(self, detailed=False):
@@ -57,17 +58,15 @@ class Batch(db.Model):
             "batch_no" : self.batch_no,
             "quantity" : self.quantity,
             "num_of_ships" : self.num_of_ships,
-            "mfg_date" : "{0}-{1}-{2}".format(self.mfg_date.year,
-                                                self.mfg_date.month,
-                                                self.mfg_date.day),
-            "exp_date" : "{0}-{1}-{2}".format(self.exp_date.year,
-                                                self.exp_date.month,
-                                                self.exp_date.day),
+            "available" : self.available,
+            "mfg_date" : format_date(self.mfg_date),
+            "exp_date" : format_date(self.exp_date),
             "description": self.description
         }
         
         if detailed:
-            result["distributions"] = [dist.jsonify() for dist in self.distributions]
+            result["distributions"] = [dist.jsonify() 
+                                        for dist in self.distributions]
             result["distribution count"] = len(result['distributions'])
             result["distribution quantity"] = sum([dist.quantity for dist in self.distributions])
 
@@ -77,13 +76,19 @@ class Region(db.Model):
     region_code = db.Column(db.String(3), primary_key=True)
     region_name = db.Column(db.String(30), nullable=False)
 
-    distributions = db.relationship("Distribution", backref=db.backref('region', cascade="all, delete", lazy=True))
+    distributions = db.relationship("Distribution", \
+                    backref=db.backref('region', cascade="all, delete", \
+                    lazy=True))
 
-    def jsonify(self):
-        return {
+    def jsonify(self, detailed=False):
+        result = {
             "region_code": self.region_code,
             "region_name": self.region_name
         }
+        if detailed:
+            result['distributions'] = [dist.jsonify() \
+                                        for dist in self.distributions]
+        return result
 
 class Distribution(db.Model):
     id = db.Column(db.Integer, primary_key=True)
@@ -97,5 +102,6 @@ class Distribution(db.Model):
         return {
             'region_code': self.region_code,
             'batch_no': self.batch_no,
-            'created_on': "{0}-{1}-{2}".format(self.created_on.year, self.created_on.month, self.created_on.day)
+            'quantity': self.quantity,
+            'created_on': format_date(self.created_on)
         }

@@ -86,7 +86,8 @@ def generate_invoice_with_batch(no_invoice, batch_per_invoice=10):
                         batch_data["exp_date"] = random_date(s_date=datetime.date(2015, 1, 1))
                         batch_data["description"] = "This is the description of the batch"
                         batch_data["quantity"] = randint(10, 500)
-                        
+                        batch_data['available'] = batch_data['quantity'] * batch_data['num_of_ships']
+
                         batch = Batch(**batch_data)
                         db.session.add(batch)
                         batches_added += 1

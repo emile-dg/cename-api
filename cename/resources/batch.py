@@ -18,10 +18,16 @@ class Get_batches(BaseResource):
     def get(self, batch_no=None):
         # if the batch_no is given then just fetch that
         # else then fetch all batches
+        temp = []
         if batch_no:
-           return self.fetch_from_db(Batch, batch_no), 200
+            try:
+                temp = Batch.query.get(batch_no).jsonify(detailed=True)
+            except Exception as e:
+                print(e)
         else:
-            return self.fetch_from_db(Batch), 200
+            temp = [bat.jsonify(detailed=True) \
+                    for bat in Batch.query.all() ]
+        return temp
 
 
 class Update_batch(BaseResource):

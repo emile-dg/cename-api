@@ -1,5 +1,8 @@
 from cename import db
-from cename.models import Region
+try:
+    from cename.models import Region
+except:
+    pass
 
 
 def prepare_db():
@@ -19,3 +22,6 @@ def prepare_db():
     for code in regions.keys():
         db.session.add(Region(region_code=code, region_name=regions[code]))
     db.session.commit()
+
+def format_date(dt):
+    return "%d-%d-%d"%(dt.year, dt.month, dt.day)

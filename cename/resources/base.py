@@ -2,6 +2,7 @@ from flask_restful import Resource, reqparse
 from flask import request
 from cename.models import Region
 from datetime import datetime
+import json
 
 class BaseResource(Resource):
     """
@@ -61,6 +62,11 @@ class BaseResource(Resource):
                 temp = self.parse_query(temp)
         finally:
             return temp
+    
+    @staticmethod
+    def convert_data_to_dict(raw_json):
+        """Convert the data argument value into a python dictionary"""
+        return json.loads(raw_json)
 
 
 class Get_regions(BaseResource):
@@ -71,5 +77,5 @@ class Get_regions(BaseResource):
         self.args = self.parse_args()
 
     def get(self):
-        query = Region.query.all()
-        return self.parse_query(query), 200
+        return [region.jsonify(detailed=True) \
+                for region in Region.query.all()], 200

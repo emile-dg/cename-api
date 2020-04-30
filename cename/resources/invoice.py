@@ -11,6 +11,7 @@ import json
 # ... 3. Update invoice
 # ... 4. Delete invoice
 
+
 class Get_invoice(BaseResource):
     def __init__(self):
         super().__init__()
@@ -60,11 +61,6 @@ class Add_invoice(BaseResource):
             else:
                 return {'message': "No batch data recieved. Cannot add invoice"}, 500
 
-    @staticmethod
-    def convert_data_to_dict(raw_json):
-        """Convert the data argument value into a python dictionary"""
-        return json.loads(raw_json)
-
     def add_invoice(self, invoice_dict):
         invoice_dict['invoice_date'] = self.convert_to_date(invoice_dict['invoice_date'])
         inv = Invoice(**invoice_dict)
@@ -82,6 +78,7 @@ class Add_invoice(BaseResource):
         batch_dic['exp_date'] = self.convert_to_date(batch_dic['exp_date'])
         batch_dic['mfg_date'] = self.convert_to_date(batch_dic['mfg_date'])
         batch_dic['invoice_no'] = invoice_no
+        batch_dic['available'] = batch_dic['quantity'] * batch_dic['num_of_ships']
 
         db.session.add(Batch(**batch_dic))
         try:
@@ -96,6 +93,7 @@ class Add_invoice(BaseResource):
             return True
         return False
 
+
 class Update_invoice(BaseResource):
     def __init__(self):
         super().__init__()
@@ -106,32 +104,34 @@ class Update_invoice(BaseResource):
     def put(self):
         data = self.get_request_data()
         if data != "":
-            json_data = json.loads(data)
-            invoice_no = json_data['invoice_no']
+            data = self.convert_data_to_dict(data)
+
+            invoice = Invoice.query.get(data['invoice_no'])
+            msg, code = "Successfull", 200
+
+            for k in data.keys():
+                try:
+                    getattr(invoice, k)
+                    setattr(invoice, k, data[k])
+                    db.session.commit()
+
+                except AttributeError:
+                    msg, code = "Invalid attribute '%s'"%(k), 500
+                    break
+
+                except:
+                    db.session.rollback()
+                    msg, code = "Internal error", 500
+                    break
+
+                else:
+                    continue
+
+            return {'msg': msg}, code
             
-            inv = Invoice.query.get(invoice_no)
-            if inv:
-                for k in json_data.keys():
-                    try:
-                        if k.endswith("date") or k == 'created_on':
-                            json_data[k] = self.convert_to_date(json_data[k])
-                        try:
-                            getattr(inv, k)
-                            setattr(inv, k, json_data[k])
-                            inv.last_update = datetime.now()
-                            db.session.commit()
-                            print(json_data)
-                        except AttributeError:
-                            return {"message": "Invalid attribute: %s"%(k)}, 500
-                    except:
-                        db.session.rollback()
-                        return {"messsage": "Error while updating"}, 500
-                    else:
-                        return {"message": "invoice updated successfully"}, 200
-            else:
-                return {"message": "no such invoice"}, 500
         else:
             return {"message": "no invoice data recieved"}, 500
+
 
 class Delete_invoice(BaseResource):
     def __init__(self):
