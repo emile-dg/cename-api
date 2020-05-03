@@ -111,9 +111,14 @@ class Update_invoice(BaseResource):
 
             for k in data.keys():
                 try:
-                    getattr(invoice, k)
-                    setattr(invoice, k, data[k])
-                    db.session.commit()
+                    getattr(invoice, k) # raise an attribute error if trying to update a non-existing column
+                    if k.endswith("date"):
+                        data[k] = self.convert_to_date(data[k])
+
+                    # ignore 'created_on' and 'invoice_no' updates
+                    if k != "created_on" and k != "invoice_no":
+                        setattr(invoice, k, data[k])
+                        db.session.commit()
 
                 except AttributeError:
                     msg, code = "Invalid attribute '%s'"%(k), 500
