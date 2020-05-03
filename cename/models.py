@@ -61,14 +61,16 @@ class Batch(db.Model):
             "available" : self.available,
             "mfg_date" : format_date(self.mfg_date),
             "exp_date" : format_date(self.exp_date),
-            "description": self.description
+            "description": self.description,
+            "distributions_count": len(self.distributions),
+            "distributed_quantity": sum([dist.quantity \
+                                        for dist in self.distributions])
         }
         
         if detailed:
-            result["distributions"] = [dist.jsonify() 
-                                        for dist in self.distributions]
-            result["distribution count"] = len(result['distributions'])
-            result["distribution quantity"] = sum([dist.quantity for dist in self.distributions])
+            result["distributions"] = [dist.jsonify() \
+                                    for dist in self.distributions]
+        
 
         return result
 
