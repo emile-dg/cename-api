@@ -10,6 +10,7 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db = SQLAlchemy(app)
 api = Api(app)
-cors = CORS(app, resource={r'/*':{'origin': "*"}})        
+# cors = CORS(app, resource={r'/*':{'origin': "*"}}) 
+cors = CORS(app)       
 
 import cename.resources
