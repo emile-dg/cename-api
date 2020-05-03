@@ -119,7 +119,8 @@ class Update_invoice(BaseResource):
                     msg, code = "Invalid attribute '%s'"%(k), 500
                     break
 
-                except:
+                except Exception as e:
+                    print(e)
                     db.session.rollback()
                     msg, code = "Internal error", 500
                     break
