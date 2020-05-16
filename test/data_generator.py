@@ -60,6 +60,7 @@ def generate_invoice_with_batch(no_invoice, batch_per_invoice=10):
     # ----------------
     invoices_added = 0
     batches_added = 0
+    counter = 0
     with tqdm(total=(no_invoice*batch_per_invoice)+no_invoice) as pbar:
         for i in range(no_invoice):
             # random values
@@ -76,7 +77,7 @@ def generate_invoice_with_batch(no_invoice, batch_per_invoice=10):
                 invoices_added += 1
                 pbar.update(1)
                 for b in range(batch_per_invoice):
-                    batch_data["batch_no"] = get_random_id("BAT", generated_bat_keys)
+                    batch_data["batch_no"] = str(counter).zfill(5)
                     if batch_data['batch_no'] == None:
                         pbar.update(1)
                     else:
@@ -92,6 +93,7 @@ def generate_invoice_with_batch(no_invoice, batch_per_invoice=10):
                         db.session.add(batch)
                         batches_added += 1
                         pbar.update(1)
+                        counter += 1
             commit_changes()
 
     inv_losess = no_invoice - invoices_added

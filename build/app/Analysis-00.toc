@@ -1,0 +1,2250 @@
+(['G:\\Projects\\cename-api\\app.py'],
+ ['G:\\Projects\\cename-api', 'G:\\Projects\\cename-api'],
+ ['codecs'],
+ [],
+ [],
+ [],
+ False,
+ False,
+ '3.6.10 |Anaconda, Inc.| (default, Mar 23 2020, 17:58:33) [MSC v.1916 64 bit '
+ '(AMD64)]',
+ [('pyi_rth_pkgres',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\PyInstaller\\loader\\rthooks\\pyi_rth_pkgres.py',
+   'PYSOURCE'),
+  ('pyi_rth_multiprocessing',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\PyInstaller\\loader\\rthooks\\pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
+  ('app', 'G:\\Projects\\cename-api\\app.py', 'PYSOURCE')],
+ [('multiprocessing.popen_fork',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\multiprocessing\\popen_fork.py',
+   'PYMODULE'),
+  ('random',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\random.py',
+   'PYMODULE'),
+  ('_strptime',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\_strptime.py',
+   'PYMODULE'),
+  ('_dummy_thread',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\_dummy_thread.py',
+   'PYMODULE'),
+  ('datetime',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\datetime.py',
+   'PYMODULE'),
+  ('calendar',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\calendar.py',
+   'PYMODULE'),
+  ('argparse',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\argparse.py',
+   'PYMODULE'),
+  ('gettext',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\gettext.py',
+   'PYMODULE'),
+  ('struct',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\struct.py',
+   'PYMODULE'),
+  ('textwrap',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\textwrap.py',
+   'PYMODULE'),
+  ('copy',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\copy.py',
+   'PYMODULE'),
+  ('bisect',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\bisect.py',
+   'PYMODULE'),
+  ('hashlib',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\hashlib.py',
+   'PYMODULE'),
+  ('logging',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\logging\\__init__.py',
+   'PYMODULE'),
+  ('threading',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\threading.py',
+   'PYMODULE'),
+  ('_threading_local',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\_threading_local.py',
+   'PYMODULE'),
+  ('contextlib',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\contextlib.py',
+   'PYMODULE'),
+  ('string',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\string.py',
+   'PYMODULE'),
+  ('multiprocessing.connection',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\multiprocessing\\connection.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_sharer',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\multiprocessing\\resource_sharer.py',
+   'PYMODULE'),
+  ('multiprocessing.process',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\multiprocessing\\process.py',
+   'PYMODULE'),
+  ('selectors',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\selectors.py',
+   'PYMODULE'),
+  ('xmlrpc.client',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\xmlrpc\\client.py',
+   'PYMODULE'),
+  ('xmlrpc',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\xmlrpc\\__init__.py',
+   'PYMODULE'),
+  ('gzip',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\gzip.py',
+   'PYMODULE'),
+  ('_compression',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\_compression.py',
+   'PYMODULE'),
+  ('xml.parsers.expat',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\xml\\parsers\\expat.py',
+   'PYMODULE'),
+  ('xml.parsers',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\xml\\parsers\\__init__.py',
+   'PYMODULE'),
+  ('xml',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\xml\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax.expatreader',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\xml\\sax\\expatreader.py',
+   'PYMODULE'),
+  ('xml.sax.saxutils',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\xml\\sax\\saxutils.py',
+   'PYMODULE'),
+  ('urllib.request',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\urllib\\request.py',
+   'PYMODULE'),
+  ('fnmatch',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\fnmatch.py',
+   'PYMODULE'),
+  ('getpass',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\getpass.py',
+   'PYMODULE'),
+  ('nturl2path',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\nturl2path.py',
+   'PYMODULE'),
+  ('ftplib',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\ftplib.py',
+   'PYMODULE'),
+  ('netrc',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\netrc.py',
+   'PYMODULE'),
+  ('stat',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\stat.py',
+   'PYMODULE'),
+  ('shlex',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\shlex.py',
+   'PYMODULE'),
+  ('mimetypes',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\mimetypes.py',
+   'PYMODULE'),
+  ('getopt',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\getopt.py',
+   'PYMODULE'),
+  ('email.utils',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\email\\utils.py',
+   'PYMODULE'),
+  ('email.charset',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\email\\charset.py',
+   'PYMODULE'),
+  ('email.encoders',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\email\\encoders.py',
+   'PYMODULE'),
+  ('quopri',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\quopri.py',
+   'PYMODULE'),
+  ('email.errors',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\email\\errors.py',
+   'PYMODULE'),
+  ('email.quoprimime',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\email\\quoprimime.py',
+   'PYMODULE'),
+  ('email.base64mime',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\email\\base64mime.py',
+   'PYMODULE'),
+  ('email._parseaddr',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\email\\_parseaddr.py',
+   'PYMODULE'),
+  ('http.cookiejar',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\http\\cookiejar.py',
+   'PYMODULE'),
+  ('http',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\http\\__init__.py',
+   'PYMODULE'),
+  ('dummy_threading',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\dummy_threading.py',
+   'PYMODULE'),
+  ('urllib',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\urllib\\__init__.py',
+   'PYMODULE'),
+  ('ssl',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\ssl.py',
+   'PYMODULE'),
+  ('ipaddress',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\ipaddress.py',
+   'PYMODULE'),
+  ('urllib.response',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\urllib\\response.py',
+   'PYMODULE'),
+  ('urllib.error',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\urllib\\error.py',
+   'PYMODULE'),
+  ('posixpath',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\posixpath.py',
+   'PYMODULE'),
+  ('genericpath',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\genericpath.py',
+   'PYMODULE'),
+  ('email',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\email\\__init__.py',
+   'PYMODULE'),
+  ('email.parser',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\email\\parser.py',
+   'PYMODULE'),
+  ('email._policybase',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\email\\_policybase.py',
+   'PYMODULE'),
+  ('email.feedparser',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\email\\feedparser.py',
+   'PYMODULE'),
+  ('email.message',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\email\\message.py',
+   'PYMODULE'),
+  ('email.policy',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\email\\policy.py',
+   'PYMODULE'),
+  ('email.contentmanager',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\email\\contentmanager.py',
+   'PYMODULE'),
+  ('email.headerregistry',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\email\\headerregistry.py',
+   'PYMODULE'),
+  ('email.iterators',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\email\\iterators.py',
+   'PYMODULE'),
+  ('email.generator',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\email\\generator.py',
+   'PYMODULE'),
+  ('email._encoded_words',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\email\\_encoded_words.py',
+   'PYMODULE'),
+  ('uu',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\uu.py',
+   'PYMODULE'),
+  ('optparse',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\optparse.py',
+   'PYMODULE'),
+  ('email._header_value_parser',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\email\\_header_value_parser.py',
+   'PYMODULE'),
+  ('email.header',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\email\\header.py',
+   'PYMODULE'),
+  ('xml.sax',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\xml\\sax\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax.handler',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\xml\\sax\\handler.py',
+   'PYMODULE'),
+  ('xml.sax._exceptions',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\xml\\sax\\_exceptions.py',
+   'PYMODULE'),
+  ('xml.sax.xmlreader',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\xml\\sax\\xmlreader.py',
+   'PYMODULE'),
+  ('urllib.parse',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\urllib\\parse.py',
+   'PYMODULE'),
+  ('http.client',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\http\\client.py',
+   'PYMODULE'),
+  ('decimal',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\decimal.py',
+   'PYMODULE'),
+  ('_pydecimal',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\_pydecimal.py',
+   'PYMODULE'),
+  ('numbers',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\numbers.py',
+   'PYMODULE'),
+  ('base64',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\base64.py',
+   'PYMODULE'),
+  ('hmac',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\hmac.py',
+   'PYMODULE'),
+  ('multiprocessing.context',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\multiprocessing\\context.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_forkserver',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\multiprocessing\\popen_forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_posix',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\multiprocessing\\popen_spawn_posix.py',
+   'PYMODULE'),
+  ('multiprocessing.semaphore_tracker',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\multiprocessing\\semaphore_tracker.py',
+   'PYMODULE'),
+  ('multiprocessing.forkserver',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\multiprocessing\\forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.sharedctypes',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\multiprocessing\\sharedctypes.py',
+   'PYMODULE'),
+  ('multiprocessing.heap',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\multiprocessing\\heap.py',
+   'PYMODULE'),
+  ('ctypes',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\ctypes\\__init__.py',
+   'PYMODULE'),
+  ('ctypes._endian',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\ctypes\\_endian.py',
+   'PYMODULE'),
+  ('multiprocessing.pool',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\multiprocessing\\pool.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\multiprocessing\\dummy\\__init__.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy.connection',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\multiprocessing\\dummy\\connection.py',
+   'PYMODULE'),
+  ('queue',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\queue.py',
+   'PYMODULE'),
+  ('multiprocessing.queues',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\multiprocessing\\queues.py',
+   'PYMODULE'),
+  ('multiprocessing.synchronize',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\multiprocessing\\synchronize.py',
+   'PYMODULE'),
+  ('multiprocessing.managers',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\multiprocessing\\managers.py',
+   'PYMODULE'),
+  ('multiprocessing.reduction',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\multiprocessing\\reduction.py',
+   'PYMODULE'),
+  ('pickle',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\pickle.py',
+   'PYMODULE'),
+  ('pprint',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\pprint.py',
+   'PYMODULE'),
+  ('doctest',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\doctest.py',
+   'PYMODULE'),
+  ('unittest',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\unittest\\__init__.py',
+   'PYMODULE'),
+  ('ntpath',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\ntpath.py',
+   'PYMODULE'),
+  ('unittest.signals',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\unittest\\signals.py',
+   'PYMODULE'),
+  ('unittest.main',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\unittest\\main.py',
+   'PYMODULE'),
+  ('unittest.runner',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\unittest\\runner.py',
+   'PYMODULE'),
+  ('unittest.loader',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\unittest\\loader.py',
+   'PYMODULE'),
+  ('unittest.suite',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\unittest\\suite.py',
+   'PYMODULE'),
+  ('unittest.case',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\unittest\\case.py',
+   'PYMODULE'),
+  ('unittest.result',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\unittest\\result.py',
+   'PYMODULE'),
+  ('unittest.util',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\unittest\\util.py',
+   'PYMODULE'),
+  ('pdb',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\pdb.py',
+   'PYMODULE'),
+  ('pydoc',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\pydoc.py',
+   'PYMODULE'),
+  ('webbrowser',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\webbrowser.py',
+   'PYMODULE'),
+  ('shutil',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\shutil.py',
+   'PYMODULE'),
+  ('zipfile',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\zipfile.py',
+   'PYMODULE'),
+  ('py_compile',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\py_compile.py',
+   'PYMODULE'),
+  ('tarfile',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\tarfile.py',
+   'PYMODULE'),
+  ('lzma',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\lzma.py',
+   'PYMODULE'),
+  ('bz2',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\bz2.py',
+   'PYMODULE'),
+  ('http.server',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\http\\server.py',
+   'PYMODULE'),
+  ('socketserver',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\socketserver.py',
+   'PYMODULE'),
+  ('html',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\html\\__init__.py',
+   'PYMODULE'),
+  ('html.entities',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\html\\entities.py',
+   'PYMODULE'),
+  ('pydoc_data.topics',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\pydoc_data\\topics.py',
+   'PYMODULE'),
+  ('pydoc_data',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\pydoc_data\\__init__.py',
+   'PYMODULE'),
+  ('tty',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\tty.py',
+   'PYMODULE'),
+  ('tokenize',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\tokenize.py',
+   'PYMODULE'),
+  ('token',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\token.py',
+   'PYMODULE'),
+  ('platform',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\platform.py',
+   'PYMODULE'),
+  ('plistlib',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\plistlib.py',
+   'PYMODULE'),
+  ('pkgutil',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\pkgutil.py',
+   'PYMODULE'),
+  ('importlib',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\importlib\\__init__.py',
+   'PYMODULE'),
+  ('importlib.abc',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\importlib\\abc.py',
+   'PYMODULE'),
+  ('importlib.util',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\importlib\\util.py',
+   'PYMODULE'),
+  ('importlib.machinery',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\importlib\\machinery.py',
+   'PYMODULE'),
+  ('importlib._bootstrap_external',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\importlib\\_bootstrap_external.py',
+   'PYMODULE'),
+  ('importlib._bootstrap',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\importlib\\_bootstrap.py',
+   'PYMODULE'),
+  ('glob',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\glob.py',
+   'PYMODULE'),
+  ('code',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\code.py',
+   'PYMODULE'),
+  ('codeop',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\codeop.py',
+   'PYMODULE'),
+  ('dis',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\dis.py',
+   'PYMODULE'),
+  ('opcode',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\opcode.py',
+   'PYMODULE'),
+  ('bdb',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\bdb.py',
+   'PYMODULE'),
+  ('cmd',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\cmd.py',
+   'PYMODULE'),
+  ('inspect',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\inspect.py',
+   'PYMODULE'),
+  ('ast',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\ast.py',
+   'PYMODULE'),
+  ('difflib',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\difflib.py',
+   'PYMODULE'),
+  ('__future__',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\__future__.py',
+   'PYMODULE'),
+  ('_compat_pickle',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\_compat_pickle.py',
+   'PYMODULE'),
+  ('tempfile',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\tempfile.py',
+   'PYMODULE'),
+  ('socket',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\socket.py',
+   'PYMODULE'),
+  ('multiprocessing.util',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\multiprocessing\\util.py',
+   'PYMODULE'),
+  ('signal',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\signal.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_win32',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\multiprocessing\\popen_spawn_win32.py',
+   'PYMODULE'),
+  ('subprocess',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\subprocess.py',
+   'PYMODULE'),
+  ('multiprocessing.spawn',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\multiprocessing\\spawn.py',
+   'PYMODULE'),
+  ('runpy',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\runpy.py',
+   'PYMODULE'),
+  ('multiprocessing',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\multiprocessing\\__init__.py',
+   'PYMODULE'),
+  ('os',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\os.py',
+   'PYMODULE'),
+  ('pkg_resources',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\pkg_resources\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.version',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\version.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.__about__',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__about__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.markers',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\markers.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.six',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\pkg_resources\\_vendor\\six.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.requirements',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\requirements.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.pyparsing',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\pkg_resources\\_vendor\\pyparsing.py',
+   'PYMODULE'),
+  ('uuid',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\uuid.py',
+   'PYMODULE'),
+  ('ctypes.util',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\ctypes\\util.py',
+   'PYMODULE'),
+  ('ctypes.macholib.dyld',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\ctypes\\macholib\\dyld.py',
+   'PYMODULE'),
+  ('ctypes.macholib',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\ctypes\\macholib\\__init__.py',
+   'PYMODULE'),
+  ('ctypes.macholib.dylib',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\ctypes\\macholib\\dylib.py',
+   'PYMODULE'),
+  ('ctypes.macholib.framework',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\ctypes\\macholib\\framework.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._compat',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_compat.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.utils',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\utils.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.specifiers',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\pkg_resources\\_vendor\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.appdirs',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\pkg_resources\\_vendor\\appdirs.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._structures',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('sysconfig',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\sysconfig.py',
+   'PYMODULE'),
+  ('_osx_support',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\_osx_support.py',
+   'PYMODULE'),
+  ('distutils.log',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\distutils\\log.py',
+   'PYMODULE'),
+  ('distutils',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\distutils\\__init__.py',
+   'PYMODULE'),
+  ('distutils.sysconfig',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\distutils\\sysconfig.py',
+   'PYMODULE'),
+  ('distutils.text_file',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\distutils\\text_file.py',
+   'PYMODULE'),
+  ('distutils.errors',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\distutils\\errors.py',
+   'PYMODULE'),
+  ('pkg_resources.py31compat',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\pkg_resources\\py31compat.py',
+   'PYMODULE'),
+  ('pkg_resources.extern',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\pkg_resources\\extern\\__init__.py',
+   'PYMODULE'),
+  ('imp',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\imp.py',
+   'PYMODULE'),
+  ('stringprep',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\stringprep.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\tracemalloc.py',
+   'PYMODULE'),
+  ('cename', 'G:\\Projects\\cename-api\\cename\\__init__.py', 'PYMODULE'),
+  ('cename.resources',
+   'G:\\Projects\\cename-api\\cename\\resources\\__init__.py',
+   'PYMODULE'),
+  ('cename.resources.distribution',
+   'G:\\Projects\\cename-api\\cename\\resources\\distribution.py',
+   'PYMODULE'),
+  ('json',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\json\\__init__.py',
+   'PYMODULE'),
+  ('json.encoder',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\json\\encoder.py',
+   'PYMODULE'),
+  ('json.decoder',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\json\\decoder.py',
+   'PYMODULE'),
+  ('json.scanner',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\json\\scanner.py',
+   'PYMODULE'),
+  ('cename.models', 'G:\\Projects\\cename-api\\cename\\models.py', 'PYMODULE'),
+  ('cename.utils', 'G:\\Projects\\cename-api\\cename\\utils.py', 'PYMODULE'),
+  ('cename.resources.batch',
+   'G:\\Projects\\cename-api\\cename\\resources\\batch.py',
+   'PYMODULE'),
+  ('cename.resources.invoice',
+   'G:\\Projects\\cename-api\\cename\\resources\\invoice.py',
+   'PYMODULE'),
+  ('cename.resources.base',
+   'G:\\Projects\\cename-api\\cename\\resources\\base.py',
+   'PYMODULE'),
+  ('flask_restful.reqparse',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\flask_restful\\reqparse.py',
+   'PYMODULE'),
+  ('six',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\six.py',
+   'PYMODULE'),
+  ('werkzeug.exceptions',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\werkzeug\\exceptions.py',
+   'PYMODULE'),
+  ('werkzeug.wrappers.response',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\werkzeug\\wrappers\\response.py',
+   'PYMODULE'),
+  ('werkzeug.wrappers',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\werkzeug\\wrappers\\__init__.py',
+   'PYMODULE'),
+  ('werkzeug.wrappers.user_agent',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\werkzeug\\wrappers\\user_agent.py',
+   'PYMODULE'),
+  ('werkzeug.useragents',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\werkzeug\\useragents.py',
+   'PYMODULE'),
+  ('werkzeug.wrappers.request',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\werkzeug\\wrappers\\request.py',
+   'PYMODULE'),
+  ('werkzeug.wrappers.base_request',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\werkzeug\\wrappers\\base_request.py',
+   'PYMODULE'),
+  ('werkzeug.test',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\werkzeug\\test.py',
+   'PYMODULE'),
+  ('werkzeug.wsgi',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\werkzeug\\wsgi.py',
+   'PYMODULE'),
+  ('werkzeug.urls',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\werkzeug\\urls.py',
+   'PYMODULE'),
+  ('werkzeug.formparser',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\werkzeug\\formparser.py',
+   'PYMODULE'),
+  ('werkzeug.wrappers.accept',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\werkzeug\\wrappers\\accept.py',
+   'PYMODULE'),
+  ('werkzeug.wrappers.etag',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\werkzeug\\wrappers\\etag.py',
+   'PYMODULE'),
+  ('werkzeug.wrappers.cors',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\werkzeug\\wrappers\\cors.py',
+   'PYMODULE'),
+  ('werkzeug.wrappers.common_descriptors',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\werkzeug\\wrappers\\common_descriptors.py',
+   'PYMODULE'),
+  ('werkzeug.wrappers.base_response',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\werkzeug\\wrappers\\base_response.py',
+   'PYMODULE'),
+  ('werkzeug.wrappers.auth',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\werkzeug\\wrappers\\auth.py',
+   'PYMODULE'),
+  ('werkzeug.http',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\werkzeug\\http.py',
+   'PYMODULE'),
+  ('werkzeug.utils',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\werkzeug\\utils.py',
+   'PYMODULE'),
+  ('werkzeug._internal',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\werkzeug\\_internal.py',
+   'PYMODULE'),
+  ('werkzeug._compat',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\werkzeug\\_compat.py',
+   'PYMODULE'),
+  ('werkzeug',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\werkzeug\\__init__.py',
+   'PYMODULE'),
+  ('werkzeug.serving',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\werkzeug\\serving.py',
+   'PYMODULE'),
+  ('werkzeug._reloader',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\werkzeug\\_reloader.py',
+   'PYMODULE'),
+  ('werkzeug.middleware.shared_data',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\werkzeug\\middleware\\shared_data.py',
+   'PYMODULE'),
+  ('werkzeug.middleware',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\werkzeug\\middleware\\__init__.py',
+   'PYMODULE'),
+  ('werkzeug.security',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\werkzeug\\security.py',
+   'PYMODULE'),
+  ('werkzeug.filesystem',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\werkzeug\\filesystem.py',
+   'PYMODULE'),
+  ('werkzeug.debug',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\werkzeug\\debug\\__init__.py',
+   'PYMODULE'),
+  ('werkzeug.debug.console',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\werkzeug\\debug\\console.py',
+   'PYMODULE'),
+  ('werkzeug.debug.repr',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\werkzeug\\debug\\repr.py',
+   'PYMODULE'),
+  ('werkzeug.local',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\werkzeug\\local.py',
+   'PYMODULE'),
+  ('werkzeug.debug.tbtools',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\werkzeug\\debug\\tbtools.py',
+   'PYMODULE'),
+  ('click',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\click\\__init__.py',
+   'PYMODULE'),
+  ('click.utils',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\click\\utils.py',
+   'PYMODULE'),
+  ('click._winconsole',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\click\\_winconsole.py',
+   'PYMODULE'),
+  ('ctypes.wintypes',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\ctypes\\wintypes.py',
+   'PYMODULE'),
+  ('click._compat',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\click\\_compat.py',
+   'PYMODULE'),
+  ('colorama',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\colorama\\__init__.py',
+   'PYMODULE'),
+  ('colorama.ansitowin32',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\colorama\\ansitowin32.py',
+   'PYMODULE'),
+  ('colorama.winterm',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\colorama\\winterm.py',
+   'PYMODULE'),
+  ('colorama.ansi',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\colorama\\ansi.py',
+   'PYMODULE'),
+  ('colorama.initialise',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\colorama\\initialise.py',
+   'PYMODULE'),
+  ('colorama.win32',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\colorama\\win32.py',
+   'PYMODULE'),
+  ('pipes',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\pipes.py',
+   'PYMODULE'),
+  ('click.types',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\click\\types.py',
+   'PYMODULE'),
+  ('click.termui',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\click\\termui.py',
+   'PYMODULE'),
+  ('click._termui_impl',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\click\\_termui_impl.py',
+   'PYMODULE'),
+  ('click.parser',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\click\\parser.py',
+   'PYMODULE'),
+  ('click.globals',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\click\\globals.py',
+   'PYMODULE'),
+  ('click.formatting',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\click\\formatting.py',
+   'PYMODULE'),
+  ('click._textwrap',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\click\\_textwrap.py',
+   'PYMODULE'),
+  ('click.exceptions',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\click\\exceptions.py',
+   'PYMODULE'),
+  ('click.decorators',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\click\\decorators.py',
+   'PYMODULE'),
+  ('click._unicodefun',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\click\\_unicodefun.py',
+   'PYMODULE'),
+  ('click.core',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\click\\core.py',
+   'PYMODULE'),
+  ('click._bashcomplete',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\click\\_bashcomplete.py',
+   'PYMODULE'),
+  ('werkzeug.datastructures',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\werkzeug\\datastructures.py',
+   'PYMODULE'),
+  ('flask_sqlalchemy',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\flask_sqlalchemy\\__init__.py',
+   'PYMODULE'),
+  ('sqlalchemy.pool',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\pool\\__init__.py',
+   'PYMODULE'),
+  ('sqlalchemy.pool.impl',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\pool\\impl.py',
+   'PYMODULE'),
+  ('sqlalchemy.util.queue',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\util\\queue.py',
+   'PYMODULE'),
+  ('sqlalchemy.util.compat',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\util\\compat.py',
+   'PYMODULE'),
+  ('configparser',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\configparser.py',
+   'PYMODULE'),
+  ('sqlalchemy.util',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\util\\__init__.py',
+   'PYMODULE'),
+  ('sqlalchemy.util.langhelpers',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\util\\langhelpers.py',
+   'PYMODULE'),
+  ('sqlalchemy.util.deprecations',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\util\\deprecations.py',
+   'PYMODULE'),
+  ('sqlalchemy.util.topological',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\util\\topological.py',
+   'PYMODULE'),
+  ('sqlalchemy.util._collections',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\util\\_collections.py',
+   'PYMODULE'),
+  ('sqlalchemy.exc',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\exc.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.util',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\sql\\util.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.selectable',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\sql\\selectable.py',
+   'PYMODULE'),
+  ('sqlalchemy.inspection',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\inspection.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.type_api',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\sql\\type_api.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.schema',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\sql\\schema.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.elements',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\sql\\elements.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.ddl',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\sql\\ddl.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.base',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\sql\\base.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.annotation',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\sql\\annotation.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.visitors',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\sql\\visitors.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.operators',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\sql\\operators.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\sql\\__init__.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.naming',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\sql\\naming.py',
+   'PYMODULE'),
+  ('sqlalchemy.events',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\events.py',
+   'PYMODULE'),
+  ('sqlalchemy.engine',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\engine\\__init__.py',
+   'PYMODULE'),
+  ('sqlalchemy.engine.reflection',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\engine\\reflection.py',
+   'PYMODULE'),
+  ('sqlalchemy.engine.result',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\engine\\result.py',
+   'PYMODULE'),
+  ('sqlalchemy.engine.interfaces',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\engine\\interfaces.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.compiler',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\sql\\compiler.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.functions',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\sql\\functions.py',
+   'PYMODULE'),
+  ('sqlalchemy.engine.util',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\engine\\util.py',
+   'PYMODULE'),
+  ('sqlalchemy.engine.strategies',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\engine\\strategies.py',
+   'PYMODULE'),
+  ('sqlalchemy.engine.threadlocal',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\engine\\threadlocal.py',
+   'PYMODULE'),
+  ('sqlalchemy.engine.base',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\engine\\base.py',
+   'PYMODULE'),
+  ('sqlalchemy.log',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\log.py',
+   'PYMODULE'),
+  ('sqlalchemy.interfaces',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\interfaces.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.crud',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\sql\\crud.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.dml',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\sql\\dml.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.expression',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\sql\\expression.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.sqltypes',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\sql\\sqltypes.py',
+   'PYMODULE'),
+  ('sqlalchemy.processors',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\processors.py',
+   'PYMODULE'),
+  ('sqlalchemy.pool.dbapi_proxy',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\pool\\dbapi_proxy.py',
+   'PYMODULE'),
+  ('sqlalchemy.pool.base',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\pool\\base.py',
+   'PYMODULE'),
+  ('flask_sqlalchemy.utils',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\flask_sqlalchemy\\utils.py',
+   'PYMODULE'),
+  ('flask_sqlalchemy._compat',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\flask_sqlalchemy\\_compat.py',
+   'PYMODULE'),
+  ('flask_sqlalchemy.model',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\flask_sqlalchemy\\model.py',
+   'PYMODULE'),
+  ('sqlalchemy.schema',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\schema.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.session',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\orm\\session.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.unitofwork',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\orm\\unitofwork.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.util',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\orm\\util.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.dependency',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\orm\\dependency.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.sync',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\orm\\sync.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.mapper',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\orm\\mapper.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.properties',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\orm\\properties.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.instrumentation',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\orm\\instrumentation.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.collections',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\orm\\collections.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.path_registry',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\orm\\path_registry.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.interfaces',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\orm\\interfaces.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.deprecated_interfaces',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\orm\\deprecated_interfaces.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.base',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\orm\\base.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.state',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\orm\\state.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.query',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\orm\\query.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.persistence',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\orm\\persistence.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.evaluator',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\orm\\evaluator.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.loading',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\orm\\loading.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.strategy_options',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\orm\\strategy_options.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.identity',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\orm\\identity.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.attributes',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\orm\\attributes.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.exc',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\orm\\exc.py',
+   'PYMODULE'),
+  ('sqlalchemy.ext.declarative',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\ext\\declarative\\__init__.py',
+   'PYMODULE'),
+  ('sqlalchemy.ext',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\ext\\__init__.py',
+   'PYMODULE'),
+  ('sqlalchemy.ext.declarative.api',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\ext\\declarative\\api.py',
+   'PYMODULE'),
+  ('sqlalchemy.ext.declarative.base',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\ext\\declarative\\base.py',
+   'PYMODULE'),
+  ('sqlalchemy.ext.declarative.clsregistry',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\ext\\declarative\\clsregistry.py',
+   'PYMODULE'),
+  ('sqlalchemy.engine.url',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\engine\\url.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\dialects\\__init__.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\orm\\__init__.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.events',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\orm\\events.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.dynamic',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\orm\\dynamic.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.strategies',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\orm\\strategies.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.scoping',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\orm\\scoping.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.relationships',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\orm\\relationships.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.descriptor_props',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\orm\\descriptor_props.py',
+   'PYMODULE'),
+  ('sqlalchemy.event',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\event\\__init__.py',
+   'PYMODULE'),
+  ('sqlalchemy.event.base',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\event\\base.py',
+   'PYMODULE'),
+  ('sqlalchemy.event.attr',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\event\\attr.py',
+   'PYMODULE'),
+  ('sqlalchemy.event.api',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\event\\api.py',
+   'PYMODULE'),
+  ('sqlalchemy.event.registry',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\event\\registry.py',
+   'PYMODULE'),
+  ('sqlalchemy.event.legacy',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\event\\legacy.py',
+   'PYMODULE'),
+  ('flask.signals',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\flask\\signals.py',
+   'PYMODULE'),
+  ('sqlalchemy',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\__init__.py',
+   'PYMODULE'),
+  ('sqlalchemy.ext.baked',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\ext\\baked.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.default_comparator',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\sql\\default_comparator.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.sybase',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\dialects\\sybase\\__init__.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.sybase.pysybase',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\dialects\\sybase\\pysybase.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.sybase.pyodbc',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\dialects\\sybase\\pyodbc.py',
+   'PYMODULE'),
+  ('sqlalchemy.connectors.pyodbc',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\connectors\\pyodbc.py',
+   'PYMODULE'),
+  ('sqlalchemy.connectors',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\connectors\\__init__.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.sybase.base',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\dialects\\sybase\\base.py',
+   'PYMODULE'),
+  ('sqlalchemy.engine.default',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\engine\\default.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.sqlite',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\dialects\\sqlite\\__init__.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.sqlite.pysqlite',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\dialects\\sqlite\\pysqlite.py',
+   'PYMODULE'),
+  ('sqlite3.dbapi2',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\sqlite3\\dbapi2.py',
+   'PYMODULE'),
+  ('sqlite3',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\sqlite3\\__init__.py',
+   'PYMODULE'),
+  ('sqlite3.dump',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\sqlite3\\dump.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.sqlite.pysqlcipher',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\dialects\\sqlite\\pysqlcipher.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.sqlite.base',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\dialects\\sqlite\\base.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.sqlite.json',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\dialects\\sqlite\\json.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.postgresql',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\dialects\\postgresql\\__init__.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.postgresql.ranges',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\dialects\\postgresql\\ranges.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.postgresql.json',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\dialects\\postgresql\\json.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.postgresql.hstore',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\dialects\\postgresql\\hstore.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.postgresql.dml',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\dialects\\postgresql\\dml.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.postgresql.ext',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\dialects\\postgresql\\ext.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.postgresql.array',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\dialects\\postgresql\\array.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.postgresql.zxjdbc',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\dialects\\postgresql\\zxjdbc.py',
+   'PYMODULE'),
+  ('sqlalchemy.connectors.zxJDBC',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\connectors\\zxJDBC.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.postgresql.pypostgresql',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\dialects\\postgresql\\pypostgresql.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.postgresql.pygresql',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\dialects\\postgresql\\pygresql.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.postgresql.psycopg2cffi',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\dialects\\postgresql\\psycopg2cffi.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.postgresql.psycopg2',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\dialects\\postgresql\\psycopg2.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.postgresql.pg8000',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\dialects\\postgresql\\pg8000.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.postgresql.base',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\dialects\\postgresql\\base.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.oracle',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\dialects\\oracle\\__init__.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.oracle.zxjdbc',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\dialects\\oracle\\zxjdbc.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.oracle.cx_oracle',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\dialects\\oracle\\cx_oracle.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.oracle.base',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\dialects\\oracle\\base.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mysql',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__init__.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mysql.dml',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\dialects\\mysql\\dml.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mysql.zxjdbc',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\dialects\\mysql\\zxjdbc.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mysql.pyodbc',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\dialects\\mysql\\pyodbc.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mysql.types',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\dialects\\mysql\\types.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mysql.pymysql',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\dialects\\mysql\\pymysql.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mysql.oursql',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\dialects\\mysql\\oursql.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mysql.mysqldb',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\dialects\\mysql\\mysqldb.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mysql.mysqlconnector',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\dialects\\mysql\\mysqlconnector.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mysql.gaerdbms',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\dialects\\mysql\\gaerdbms.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mysql.cymysql',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\dialects\\mysql\\cymysql.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mysql.base',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\dialects\\mysql\\base.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mysql.json',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\dialects\\mysql\\json.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mysql.enumerated',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\dialects\\mysql\\enumerated.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mysql.reflection',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\dialects\\mysql\\reflection.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mssql',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\dialects\\mssql\\__init__.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mssql.zxjdbc',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\dialects\\mssql\\zxjdbc.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mssql.pyodbc',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\dialects\\mssql\\pyodbc.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mssql.pymssql',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\dialects\\mssql\\pymssql.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mssql.mxodbc',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\dialects\\mssql\\mxodbc.py',
+   'PYMODULE'),
+  ('sqlalchemy.connectors.mxodbc',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\connectors\\mxodbc.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mssql.adodbapi',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\dialects\\mssql\\adodbapi.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mssql.information_schema',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\dialects\\mssql\\information_schema.py',
+   'PYMODULE'),
+  ('sqlalchemy.ext.compiler',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\ext\\compiler.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mssql.base',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\dialects\\mssql\\base.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.firebird',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\dialects\\firebird\\__init__.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.firebird.kinterbasdb',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\dialects\\firebird\\kinterbasdb.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.firebird.fdb',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\dialects\\firebird\\fdb.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.firebird.base',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\dialects\\firebird\\base.py',
+   'PYMODULE'),
+  ('sqlalchemy.types',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\types.py',
+   'PYMODULE'),
+  ('flask_restful',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\flask_restful\\__init__.py',
+   'PYMODULE'),
+  ('flask.helpers',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\flask\\helpers.py',
+   'PYMODULE'),
+  ('flask.cli',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\flask\\cli.py',
+   'PYMODULE'),
+  ('flask.globals',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\flask\\globals.py',
+   'PYMODULE'),
+  ('flask._compat',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\flask\\_compat.py',
+   'PYMODULE'),
+  ('werkzeug.routing',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\werkzeug\\routing.py',
+   'PYMODULE'),
+  ('jinja2',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\jinja2\\__init__.py',
+   'PYMODULE'),
+  ('jinja2.ext',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\jinja2\\ext.py',
+   'PYMODULE'),
+  ('jinja2.defaults',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\jinja2\\defaults.py',
+   'PYMODULE'),
+  ('jinja2.tests',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\jinja2\\tests.py',
+   'PYMODULE'),
+  ('jinja2._compat',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\jinja2\\_compat.py',
+   'PYMODULE'),
+  ('pathlib',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\pathlib.py',
+   'PYMODULE'),
+  ('jinja2.utils',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\jinja2\\utils.py',
+   'PYMODULE'),
+  ('jinja2.constants',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\jinja2\\constants.py',
+   'PYMODULE'),
+  ('jinja2.lexer',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\jinja2\\lexer.py',
+   'PYMODULE'),
+  ('jinja2._identifier',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\jinja2\\_identifier.py',
+   'PYMODULE'),
+  ('jinja2.runtime',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\jinja2\\runtime.py',
+   'PYMODULE'),
+  ('jinja2.loaders',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\jinja2\\loaders.py',
+   'PYMODULE'),
+  ('jinja2.filters',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\jinja2\\filters.py',
+   'PYMODULE'),
+  ('jinja2.exceptions',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\jinja2\\exceptions.py',
+   'PYMODULE'),
+  ('jinja2.environment',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\jinja2\\environment.py',
+   'PYMODULE'),
+  ('jinja2.debug',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\jinja2\\debug.py',
+   'PYMODULE'),
+  ('jinja2.parser',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\jinja2\\parser.py',
+   'PYMODULE'),
+  ('jinja2.compiler',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\jinja2\\compiler.py',
+   'PYMODULE'),
+  ('jinja2.visitor',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\jinja2\\visitor.py',
+   'PYMODULE'),
+  ('jinja2.optimizer',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\jinja2\\optimizer.py',
+   'PYMODULE'),
+  ('jinja2.idtracking',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\jinja2\\idtracking.py',
+   'PYMODULE'),
+  ('jinja2.bccache',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\jinja2\\bccache.py',
+   'PYMODULE'),
+  ('jinja2.asyncsupport',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\jinja2\\asyncsupport.py',
+   'PYMODULE'),
+  ('jinja2.asyncfilters',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\jinja2\\asyncfilters.py',
+   'PYMODULE'),
+  ('asyncio',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\asyncio\\__init__.py',
+   'PYMODULE'),
+  ('asyncio.unix_events',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\asyncio\\unix_events.py',
+   'PYMODULE'),
+  ('asyncio.log',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\asyncio\\log.py',
+   'PYMODULE'),
+  ('asyncio.windows_events',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\asyncio\\windows_events.py',
+   'PYMODULE'),
+  ('asyncio.windows_utils',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\asyncio\\windows_utils.py',
+   'PYMODULE'),
+  ('asyncio.selector_events',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\asyncio\\selector_events.py',
+   'PYMODULE'),
+  ('asyncio.proactor_events',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\asyncio\\proactor_events.py',
+   'PYMODULE'),
+  ('asyncio.sslproto',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\asyncio\\sslproto.py',
+   'PYMODULE'),
+  ('asyncio.base_subprocess',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\asyncio\\base_subprocess.py',
+   'PYMODULE'),
+  ('asyncio.transports',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\asyncio\\transports.py',
+   'PYMODULE'),
+  ('asyncio.subprocess',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\asyncio\\subprocess.py',
+   'PYMODULE'),
+  ('asyncio.streams',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\asyncio\\streams.py',
+   'PYMODULE'),
+  ('asyncio.queues',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\asyncio\\queues.py',
+   'PYMODULE'),
+  ('asyncio.protocols',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\asyncio\\protocols.py',
+   'PYMODULE'),
+  ('asyncio.base_events',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\asyncio\\base_events.py',
+   'PYMODULE'),
+  ('concurrent.futures',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\concurrent\\futures\\__init__.py',
+   'PYMODULE'),
+  ('concurrent.futures.thread',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\concurrent\\futures\\thread.py',
+   'PYMODULE'),
+  ('concurrent.futures.process',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\concurrent\\futures\\process.py',
+   'PYMODULE'),
+  ('concurrent.futures._base',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\concurrent\\futures\\_base.py',
+   'PYMODULE'),
+  ('concurrent',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\concurrent\\__init__.py',
+   'PYMODULE'),
+  ('asyncio.tasks',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\asyncio\\tasks.py',
+   'PYMODULE'),
+  ('asyncio.locks',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\asyncio\\locks.py',
+   'PYMODULE'),
+  ('asyncio.base_tasks',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\asyncio\\base_tasks.py',
+   'PYMODULE'),
+  ('asyncio.futures',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\asyncio\\futures.py',
+   'PYMODULE'),
+  ('asyncio.coroutines',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\asyncio\\coroutines.py',
+   'PYMODULE'),
+  ('asyncio.base_futures',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\asyncio\\base_futures.py',
+   'PYMODULE'),
+  ('asyncio.events',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\asyncio\\events.py',
+   'PYMODULE'),
+  ('asyncio.constants',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\asyncio\\constants.py',
+   'PYMODULE'),
+  ('asyncio.compat',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\asyncio\\compat.py',
+   'PYMODULE'),
+  ('jinja2.nodes',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\jinja2\\nodes.py',
+   'PYMODULE'),
+  ('markupsafe',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\markupsafe\\__init__.py',
+   'PYMODULE'),
+  ('markupsafe._native',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\markupsafe\\_native.py',
+   'PYMODULE'),
+  ('markupsafe._constants',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\markupsafe\\_constants.py',
+   'PYMODULE'),
+  ('markupsafe._compat',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\markupsafe\\_compat.py',
+   'PYMODULE'),
+  ('flask_restful.representations.json',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\flask_restful\\representations\\json.py',
+   'PYMODULE'),
+  ('flask_restful.representations',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\flask_restful\\representations\\__init__.py',
+   'PYMODULE'),
+  ('flask_restful.utils',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\flask_restful\\utils\\__init__.py',
+   'PYMODULE'),
+  ('flask.views',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\flask\\views.py',
+   'PYMODULE'),
+  ('flask_cors',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\flask_cors\\__init__.py',
+   'PYMODULE'),
+  ('flask_cors.version',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\flask_cors\\version.py',
+   'PYMODULE'),
+  ('flask_cors.extension',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\flask_cors\\extension.py',
+   'PYMODULE'),
+  ('flask_cors.core',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\flask_cors\\core.py',
+   'PYMODULE'),
+  ('flask_cors.decorator',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\flask_cors\\decorator.py',
+   'PYMODULE'),
+  ('flask',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\flask\\__init__.py',
+   'PYMODULE'),
+  ('flask.templating',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\flask\\templating.py',
+   'PYMODULE'),
+  ('flask.debughelpers',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\flask\\debughelpers.py',
+   'PYMODULE'),
+  ('flask.ctx',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\flask\\ctx.py',
+   'PYMODULE'),
+  ('flask.config',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\flask\\config.py',
+   'PYMODULE'),
+  ('flask.blueprints',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\flask\\blueprints.py',
+   'PYMODULE'),
+  ('flask.app',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\flask\\app.py',
+   'PYMODULE'),
+  ('flask.testing',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\flask\\testing.py',
+   'PYMODULE'),
+  ('click.testing',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\click\\testing.py',
+   'PYMODULE'),
+  ('flask.wrappers',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\flask\\wrappers.py',
+   'PYMODULE'),
+  ('werkzeug.wrappers.json',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\werkzeug\\wrappers\\json.py',
+   'PYMODULE'),
+  ('flask.sessions',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\flask\\sessions.py',
+   'PYMODULE'),
+  ('flask.json.tag',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\flask\\json\\tag.py',
+   'PYMODULE'),
+  ('itsdangerous',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\itsdangerous\\__init__.py',
+   'PYMODULE'),
+  ('itsdangerous.url_safe',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\itsdangerous\\url_safe.py',
+   'PYMODULE'),
+  ('itsdangerous.timed',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\itsdangerous\\timed.py',
+   'PYMODULE'),
+  ('itsdangerous._compat',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\itsdangerous\\_compat.py',
+   'PYMODULE'),
+  ('itsdangerous.signer',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\itsdangerous\\signer.py',
+   'PYMODULE'),
+  ('itsdangerous.serializer',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\itsdangerous\\serializer.py',
+   'PYMODULE'),
+  ('itsdangerous.jws',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\itsdangerous\\jws.py',
+   'PYMODULE'),
+  ('itsdangerous.exc',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\itsdangerous\\exc.py',
+   'PYMODULE'),
+  ('itsdangerous.encoding',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\itsdangerous\\encoding.py',
+   'PYMODULE'),
+  ('itsdangerous._json',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\itsdangerous\\_json.py',
+   'PYMODULE'),
+  ('flask.logging',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\flask\\logging.py',
+   'PYMODULE'),
+  ('flask.json',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\flask\\json\\__init__.py',
+   'PYMODULE')],
+ [('api-ms-win-crt-locale-l1-1-0.dll',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-crt-locale-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-runtime-l1-1-0.dll',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-crt-runtime-l1-1-0.dll',
+   'BINARY'),
+  ('VCRUNTIME140.dll',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('api-ms-win-crt-math-l1-1-0.dll',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-crt-math-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-stdio-l1-1-0.dll',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-crt-stdio-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-heap-l1-1-0.dll',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-crt-heap-l1-1-0.dll',
+   'BINARY'),
+  ('python36.dll',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\python36.dll',
+   'BINARY'),
+  ('ucrtbase.dll',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\ucrtbase.dll',
+   'BINARY'),
+  ('api-ms-win-crt-convert-l1-1-0.dll',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-crt-convert-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-string-l1-1-0.dll',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-crt-string-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-time-l1-1-0.dll',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-crt-time-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-conio-l1-1-0.dll',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-crt-conio-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-environment-l1-1-0.dll',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-crt-environment-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-process-l1-1-0.dll',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-crt-process-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-filesystem-l1-1-0.dll',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-crt-filesystem-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-0.dll',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-processthreads-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-handle-l1-1-0.dll',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-handle-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-1-0.dll',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-file-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-namedpipe-l1-1-0.dll',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-namedpipe-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-interlocked-l1-1-0.dll',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-interlocked-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-datetime-l1-1-0.dll',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-datetime-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-2-0.dll',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-file-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-debug-l1-1-0.dll',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-debug-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-string-l1-1-0.dll',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-string-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-localization-l1-2-0.dll',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-localization-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-1-0.dll',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-synch-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-2-0.dll',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-synch-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-profile-l1-1-0.dll',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-profile-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processenvironment-l1-1-0.dll',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-processenvironment-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-errorhandling-l1-1-0.dll',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-errorhandling-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-1.dll',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-processthreads-l1-1-1.dll',
+   'BINARY'),
+  ('api-ms-win-core-libraryloader-l1-1-0.dll',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-libraryloader-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-util-l1-1-0.dll',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-util-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l2-1-0.dll',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-file-l2-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-console-l1-1-0.dll',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-console-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-sysinfo-l1-1-0.dll',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-sysinfo-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-memory-l1-1-0.dll',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-memory-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-heap-l1-1-0.dll',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-heap-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-timezone-l1-1-0.dll',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-timezone-l1-1-0.dll',
+   'BINARY'),
+  ('_hashlib',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\DLLs\\_hashlib.pyd',
+   'EXTENSION'),
+  ('select',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\DLLs\\select.pyd',
+   'EXTENSION'),
+  ('pyexpat',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\DLLs\\pyexpat.pyd',
+   'EXTENSION'),
+  ('_ssl',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\DLLs\\_ssl.pyd',
+   'EXTENSION'),
+  ('unicodedata',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('_decimal',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\DLLs\\_decimal.pyd',
+   'EXTENSION'),
+  ('_ctypes',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\DLLs\\_ctypes.pyd',
+   'EXTENSION'),
+  ('_lzma',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\DLLs\\_lzma.pyd',
+   'EXTENSION'),
+  ('_bz2',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\DLLs\\_bz2.pyd',
+   'EXTENSION'),
+  ('_multiprocessing',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\DLLs\\_multiprocessing.pyd',
+   'EXTENSION'),
+  ('_socket',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\DLLs\\_socket.pyd',
+   'EXTENSION'),
+  ('_sqlite3',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\DLLs\\_sqlite3.pyd',
+   'EXTENSION'),
+  ('_asyncio',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\DLLs\\_asyncio.pyd',
+   'EXTENSION'),
+  ('_overlapped',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\DLLs\\_overlapped.pyd',
+   'EXTENSION'),
+  ('markupsafe._speedups',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\markupsafe\\_speedups.cp36-win_amd64.pyd',
+   'EXTENSION'),
+  ('api-ms-win-crt-utility-l1-1-0.dll',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-crt-utility-l1-1-0.dll',
+   'BINARY'),
+  ('sqlite3.dll',
+   'C:\\Users\\Emile DJIDA '
+   'G\\Miniconda3\\envs\\cename-api\\Library\\bin\\sqlite3.dll',
+   'BINARY')],
+ [],
+ [],
+ [('base_library.zip',
+   'G:\\Projects\\cename-api\\build\\app\\base_library.zip',
+   'DATA'),
+  ('Include\\pyconfig.h',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\Include\\pyconfig.h',
+   'DATA')],
+ [])
