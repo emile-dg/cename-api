@@ -1,0 +1,14 @@
+[DEBUG] [17/05/2020 07:15:31 PM] : Starting server...
+[INFO] [17/05/2020 07:15:35 PM] :  * Running on http://0.0.0.0:1909/ (Press CTRL+C to quit)
+[INFO] [17/05/2020 07:18:10 PM] : Getting low details invoice data for all invoices
+[INFO] [17/05/2020 07:18:31 PM] : 127.0.0.1 - - [17/May/2020 19:18:31] "[37mGET /get/invoices HTTP/1.1[0m" 200 -
+[INFO] [17/05/2020 07:18:31 PM] : Getting all regions
+[INFO] [17/05/2020 07:18:32 PM] : 127.0.0.1 - - [17/May/2020 19:18:32] "[37mGET /get/regions HTTP/1.1[0m" 200 -
+[INFO] [17/05/2020 07:22:45 PM] : About to make a distribution
+[INFO] [17/05/2020 07:22:45 PM] : Invalid quantity
+[INFO] [17/05/2020 07:22:45 PM] : Transaction validation failed
+[INFO] [17/05/2020 07:22:45 PM] : 127.0.0.1 - - [17/May/2020 19:22:45] "[35m[1mPOST /make/distribution HTTP/1.1[0m" 500 -
+[INFO] [17/05/2020 07:27:06 PM] : About to make a distribution
+[INFO] [17/05/2020 07:27:06 PM] : Transaction reprocessing and validation ok
+[INFO] [17/05/2020 07:27:06 PM] : Transaction successfull
+[INFO] [17/05/2020 07:27:06 PM] : 127.0.0.1 - - [17/May/2020 19:27:06] "[37mPOST /make/distribution HTTP/1.1[0m" 200 -

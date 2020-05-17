@@ -3,6 +3,8 @@ from flask import request
 from cename.models import Region
 from datetime import datetime
 import json
+import logging
+
 
 class BaseResource(Resource):
     """
@@ -77,5 +79,6 @@ class Get_regions(BaseResource):
         self.args = self.parse_args()
 
     def get(self):
+        logging.info("Getting all regions")
         return [region.jsonify(detailed=True) \
                 for region in Region.query.all()], 200

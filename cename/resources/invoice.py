@@ -3,6 +3,8 @@ from cename import db
 from cename.models import Invoice, Batch
 from datetime import datetime
 import json
+import logging
+
 
 # Table of content
 # -----------------
@@ -20,11 +22,13 @@ class Get_invoice(BaseResource):
         temp = []
         if invoice_no:
             try:
+                logging.info("Getting highly detailed invoice data for an invoice")
                 temp = Invoice.query.get(invoice_no).jsonify(details="high")
             except Exception as e:
-                print(e)
+                logging.error(str(e))
                 temp = []
         else:
+            logging.info("Getting low details invoice data for all invoices")
             temp = [{**invoice.jsonify(details="low")} \
                     for invoice in Invoice.query.all()]
         return temp
@@ -41,25 +45,34 @@ class Add_invoice(BaseResource):
     
     def post(self):
         if self.missing_args():
+            logging.warning("data for adding invoice/batch not found")
             return {'message': "Sorry but 'data' argument value is missing!"}, 500
         else:
+            logging.info("Data preprocessing for adding invoice")
             json_data = self.convert_data_to_dict(self.get_request_data())
             invoice_data = json_data['invoice_data']
             batches_data = json_data['batches']
 
             if len(batches_data) > 0:
                 if not self.row_exist(Invoice, invoice_data['invoice_no']):
+                    logging.info("Adding invoice")
                     invoice_no = self.add_invoice(invoice_data)
+                    logging.info("adding batches")
                     for batch in batches_data:
                         if not self.row_exist(Batch, batch['batch_no']):
                             self.add_batch(batch, invoice_no)
                         else:
+                            logging.warning("Adding batch failed due to duplicate entry")
                             return {'message': "Cannot add batch. Duplicate 'batch_no' '%s'"%(batch['batch_no'])}, 500
+                    
+                    logging.info("Invoice and batche(s) added successfully")
                     return {'message': "Invoice and batche(s) added successfully!"}, 200
                 else:
+                    logging.warning("Adding invoice failed due to duplicate entry")
                     return {'message': "Cannot add Invoice. Duplicate 'invoice_no' '%s'"%(invoice_data['invoice_no'])}, 500
             else:
-                return {'message': "No batch data recieved. Cannot add invoice"}, 500
+                logging.warning("Missing data, cannot add invoice/batche(s)")
+                return {'message': "No data recieved. Cannot add invoice"}, 500
 
     def add_invoice(self, invoice_dict):
         invoice_dict['invoice_date'] = self.convert_to_date(invoice_dict['invoice_date'])
@@ -85,7 +98,7 @@ class Add_invoice(BaseResource):
             db.session.commit()
         except Exception as e:
             db.session.rollback()
-            print(e)
+            logging.error(str(e))
             return {"message": "Error while updating the database. Probably internal."}, 500
 
     def row_exist(self, model, pk):
@@ -108,6 +121,7 @@ class Update_invoice(BaseResource):
 
             invoice = Invoice.query.get(data['invoice_no'])
             msg, code = "Successfull", 200
+            logging.info("Invoice update preprocessing ok. Proceeding with update")
 
             for k in data.keys():
                 try:
@@ -121,21 +135,24 @@ class Update_invoice(BaseResource):
                         db.session.commit()
 
                 except AttributeError:
+                    logging.warning("Invalid invoice attribute for update")
                     msg, code = "Invalid attribute '%s'"%(k), 500
                     break
 
                 except Exception as e:
-                    print(e)
+                    logging.error(str(e))
                     db.session.rollback()
                     msg, code = "Internal error", 500
                     break
 
                 else:
                     continue
-
+            if code == 200:
+                logging.info("Invoice update successfull")
             return {'msg': msg}, code
             
         else:
+            logging.warning("Update invoice failed. No data found")
             return {"message": "no invoice data recieved"}, 500
 
 
@@ -150,12 +167,16 @@ class Delete_invoice(BaseResource):
                 try:
                     db.session.delete(inv)
                     db.session.commit()
-                except:
+                except Exception as e:
+                    logging.error(str(e))
                     db.session.rollback()
                     return {'message': "Internal Error while trying to delete"}, 500
                 else:
+                    logging.info("Invoice deletion successfull")
                     return {'message': "invoice deleted successfully"}, 200
             else:
+                logging.warning("No invoice found for deletion")
                 return {"message": "no such invoice with invoice_no '%s'"%(invoice_no)}, 500
         else:
+            logging.warning("No data given for invoice deletion")
             return {'message': "no invoice_no given "}, 500

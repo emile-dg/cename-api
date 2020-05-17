@@ -2,6 +2,7 @@ from cename.resources.base import BaseResource
 from cename import db
 from cename.models import Distribution, Region, Batch
 import json
+import logging
 
 
 # Table of content
@@ -17,14 +18,18 @@ class Get_distribution(BaseResource):
     def get(self, region_code=None):
         if region_code:
             # if the request is for a particular row
+            logging.info("Getting distributions for a region")
             region = Region.query.get(region_code) 
             if region:
+                logging.info("Region found, getting distributions")
                 query = region.distributions
                 response = self.parse_query(query)
             else:
+                logging.info(f"Invalid region_code given {region_code}")
                 return {"message": "invalid region_code '%s'"%(region_code)}, 500
         else:
             # else get all the tables
+            logging.info("Getting all distributions")
             query = Distribution.query.all()
             response = self.parse_query(query)
 
@@ -39,19 +44,24 @@ class Make_distribution(BaseResource):
         data = self.get_request_data()
         if data != "":
             try:
+                logging.info("About to make a distribution")
                 data = self.convert_data_to_dict(data)
                 check = self.validate_transaction(data)
                 if check['ok']:
+                    logging.info("Transaction reprocessing and validation ok")
                     db.session.add(Distribution(**data))
                     Batch.query.get(data['batch_no']).available -= int(data['quantity'])
                     db.session.commit()
+                    logging.info("Transaction successfull")
                     return {'message': "Transaction successfull"}, 200
                 else:
+                    logging.info("Transaction validation failed")
                     return check['msg'], 500
             except Exception as e:
-                print(e)
+                logging.error(str(e))
                 return {"message" : "Internal or Update Error"}, 500
         else:
+            logging.warning("No data given")
             return {"message": "no data passed"}, 500
 
     @staticmethod
@@ -74,8 +84,11 @@ class Make_distribution(BaseResource):
                 if Region.query.get(transaction_data['region_code']):
                     return {'ok': True, 'msg': ''}
                 else:
+                    logging.info("Invalid region_code")
                     return {'ok': False, 'msg': 'Invalid region. Operation failed'}    
             else:
+                logging.info("Invalid quantity")
                 return {'ok': False, 'msg': 'Invalid transaction quantity. Operation failed'}
         else:
+            logging.info("Invalid batch_no")
             return {'ok': False, 'msg': "No such batch. Operation failed"}

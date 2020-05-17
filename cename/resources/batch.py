@@ -2,6 +2,7 @@ from cename.resources.base import BaseResource
 from cename import db
 from cename.models import Batch
 import json
+import logging
 
 
 # Table of content
@@ -21,10 +22,12 @@ class Get_batches(BaseResource):
         temp = []
         if batch_no:
             try:
+                logging.info("Getting a batch")
                 temp = Batch.query.get(batch_no).jsonify(detailed=True)
             except Exception as e:
-                print(e)
+                logging.error(str(e))
         else:
+            logging.info("Getting all batches")
             temp = [bat.jsonify(detailed=True) \
                     for bat in Batch.query.all() ]
         return temp
@@ -49,18 +52,23 @@ class Update_batch(BaseResource):
                                 json_data[k] = self.convert_to_date(json_data[k])
                             setattr(_batch, k, json_data[k])
                     except Exception as e:
-                        print(e)
-                        return {"messsage": "Error while updating"}, 500
+                        logging.error(str(e))
+                        return {"messsage": "Unable to update batch at the moment"}, 500
                 try:
                     db.session.commit()
-                except:
+                except Exception as e:
+                    logging.error(str(e))
                     db.session.rollback()
-                    return {"message": "Error while updating the database. Probably internal."}, 500
+                    return {"message": "Unable to update the batch at the moment"}, 500
+
+                logging.info("Batch updated successfully")
                 return {"message": "batch updated successfully"}, 200
             else:
+                logging.info("Invalid batch_no, batch not found")
                 return {"message": "no such batch"}, 500
                 
         else:
+            logging.warning("No batch data given")
             return {"message": "no batch data recieved"}, 500
 
 class Delete_batch(BaseResource):
@@ -72,15 +80,19 @@ class Delete_batch(BaseResource):
             bat = Batch.query.get(batch_no)
             if bat:    
                 try:
+                    logging.info("Deleting batch")
                     db.session.delete(bat)
                     db.session.commit()
                 except Exception as e:
-                    print(e)
+                    logging.error(str(e))
                     db.session.rollback()
                     return {'message': "Internal Error while trying to delete"}, 500
                 else:
+                    logging.info("Batch deleted")
                     return {'message': "batch deleted successfully"}, 200
             else:
+                logging.info(f"No batch found with the given batch_no {batch_no}")
                 return {"message": "no such batch with batch_no '%s'"%(batch_no)}, 500
         else:
+            logging.warning("No batch data given")
             return {'message': "no batch_no given "}, 500
