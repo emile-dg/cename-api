@@ -1,5 +1,5 @@
-(['G:\\Projects\\cename-api\\app.py'],
- ['G:\\Projects\\cename-api', 'G:\\Projects\\cename-api'],
+(['G:\\Projects\\cename\\cename-api\\app.py'],
+ ['G:\\Projects\\cename\\cename-api', 'G:\\Projects\\cename\\cename-api'],
  ['codecs'],
  [],
  [],
@@ -16,7 +16,7 @@
    'c:\\users\\emile djida '
    'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\PyInstaller\\loader\\rthooks\\pyi_rth_multiprocessing.py',
    'PYSOURCE'),
-  ('app', 'G:\\Projects\\cename-api\\app.py', 'PYSOURCE')],
+  ('app', 'G:\\Projects\\cename\\cename-api\\app.py', 'PYSOURCE')],
  [('multiprocessing.popen_fork',
    'c:\\users\\emile djida '
    'g\\miniconda3\\envs\\cename-api\\lib\\multiprocessing\\popen_fork.py',
@@ -58,23 +58,6 @@
   ('hashlib',
    'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\hashlib.py',
    'PYMODULE'),
-  ('logging',
-   'c:\\users\\emile djida '
-   'g\\miniconda3\\envs\\cename-api\\lib\\logging\\__init__.py',
-   'PYMODULE'),
-  ('threading',
-   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\threading.py',
-   'PYMODULE'),
-  ('_threading_local',
-   'c:\\users\\emile djida '
-   'g\\miniconda3\\envs\\cename-api\\lib\\_threading_local.py',
-   'PYMODULE'),
-  ('contextlib',
-   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\contextlib.py',
-   'PYMODULE'),
-  ('string',
-   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\string.py',
-   'PYMODULE'),
   ('multiprocessing.connection',
    'c:\\users\\emile djida '
    'g\\miniconda3\\envs\\cename-api\\lib\\multiprocessing\\connection.py',
@@ -86,6 +69,16 @@
   ('multiprocessing.process',
    'c:\\users\\emile djida '
    'g\\miniconda3\\envs\\cename-api\\lib\\multiprocessing\\process.py',
+   'PYMODULE'),
+  ('threading',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\threading.py',
+   'PYMODULE'),
+  ('_threading_local',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\_threading_local.py',
+   'PYMODULE'),
+  ('contextlib',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\contextlib.py',
    'PYMODULE'),
   ('selectors',
    'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\selectors.py',
@@ -216,6 +209,9 @@
   ('urllib.error',
    'c:\\users\\emile djida '
    'g\\miniconda3\\envs\\cename-api\\lib\\urllib\\error.py',
+   'PYMODULE'),
+  ('string',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\string.py',
    'PYMODULE'),
   ('posixpath',
    'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\posixpath.py',
@@ -604,29 +600,37 @@
    'c:\\users\\emile djida '
    'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\pkg_resources\\__init__.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.packaging',
+  ('pkg_resources._vendor.appdirs',
    'c:\\users\\emile djida '
-   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__init__.py',
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\pkg_resources\\_vendor\\appdirs.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._structures',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_structures.py',
    'PYMODULE'),
   ('pkg_resources._vendor.packaging.version',
    'c:\\users\\emile djida '
    'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\version.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.packaging.__about__',
-   'c:\\users\\emile djida '
-   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__about__.py',
-   'PYMODULE'),
   ('pkg_resources._vendor.packaging.markers',
    'c:\\users\\emile djida '
    'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\markers.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.six',
+  ('pkg_resources._vendor.packaging._compat',
    'c:\\users\\emile djida '
-   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\pkg_resources\\_vendor\\six.py',
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_compat.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.packaging.requirements',
+  ('pkg_resources._vendor.packaging',
    'c:\\users\\emile djida '
-   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\requirements.py',
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.__about__',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__about__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.specifiers',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\specifiers.py',
    'PYMODULE'),
   ('pkg_resources._vendor.pyparsing',
    'c:\\users\\emile djida '
@@ -655,29 +659,21 @@
    'c:\\users\\emile djida '
    'g\\miniconda3\\envs\\cename-api\\lib\\ctypes\\macholib\\framework.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.packaging._compat',
-   'c:\\users\\emile djida '
-   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_compat.py',
-   'PYMODULE'),
   ('pkg_resources._vendor.packaging.utils',
    'c:\\users\\emile djida '
    'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\utils.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.packaging.specifiers',
+  ('pkg_resources._vendor.six',
    'c:\\users\\emile djida '
-   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\specifiers.py',
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\pkg_resources\\_vendor\\six.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.requirements',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\requirements.py',
    'PYMODULE'),
   ('pkg_resources._vendor',
    'c:\\users\\emile djida '
    'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\pkg_resources\\_vendor\\__init__.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.appdirs',
-   'c:\\users\\emile djida '
-   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\pkg_resources\\_vendor\\appdirs.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.packaging._structures',
-   'c:\\users\\emile djida '
-   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_structures.py',
    'PYMODULE'),
   ('sysconfig',
    'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\lib\\sysconfig.py',
@@ -724,12 +720,18 @@
    'c:\\users\\emile djida '
    'g\\miniconda3\\envs\\cename-api\\lib\\tracemalloc.py',
    'PYMODULE'),
-  ('cename', 'G:\\Projects\\cename-api\\cename\\__init__.py', 'PYMODULE'),
+  ('logging',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\logging\\__init__.py',
+   'PYMODULE'),
+  ('cename',
+   'G:\\Projects\\cename\\cename-api\\cename\\__init__.py',
+   'PYMODULE'),
   ('cename.resources',
-   'G:\\Projects\\cename-api\\cename\\resources\\__init__.py',
+   'G:\\Projects\\cename\\cename-api\\cename\\resources\\__init__.py',
    'PYMODULE'),
   ('cename.resources.distribution',
-   'G:\\Projects\\cename-api\\cename\\resources\\distribution.py',
+   'G:\\Projects\\cename\\cename-api\\cename\\resources\\distribution.py',
    'PYMODULE'),
   ('json',
    'c:\\users\\emile djida '
@@ -747,16 +749,20 @@
    'c:\\users\\emile djida '
    'g\\miniconda3\\envs\\cename-api\\lib\\json\\scanner.py',
    'PYMODULE'),
-  ('cename.models', 'G:\\Projects\\cename-api\\cename\\models.py', 'PYMODULE'),
-  ('cename.utils', 'G:\\Projects\\cename-api\\cename\\utils.py', 'PYMODULE'),
+  ('cename.models',
+   'G:\\Projects\\cename\\cename-api\\cename\\models.py',
+   'PYMODULE'),
+  ('cename.utils',
+   'G:\\Projects\\cename\\cename-api\\cename\\utils.py',
+   'PYMODULE'),
   ('cename.resources.batch',
-   'G:\\Projects\\cename-api\\cename\\resources\\batch.py',
+   'G:\\Projects\\cename\\cename-api\\cename\\resources\\batch.py',
    'PYMODULE'),
   ('cename.resources.invoice',
-   'G:\\Projects\\cename-api\\cename\\resources\\invoice.py',
+   'G:\\Projects\\cename\\cename-api\\cename\\resources\\invoice.py',
    'PYMODULE'),
   ('cename.resources.base',
-   'G:\\Projects\\cename-api\\cename\\resources\\base.py',
+   'G:\\Projects\\cename\\cename-api\\cename\\resources\\base.py',
    'PYMODULE'),
   ('flask_restful.reqparse',
    'c:\\users\\emile djida '
@@ -1369,13 +1375,13 @@
    'c:\\users\\emile djida '
    'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\__init__.py',
    'PYMODULE'),
-  ('sqlalchemy.ext.baked',
-   'c:\\users\\emile djida '
-   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\ext\\baked.py',
-   'PYMODULE'),
   ('sqlalchemy.sql.default_comparator',
    'c:\\users\\emile djida '
    'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\sql\\default_comparator.py',
+   'PYMODULE'),
+  ('sqlalchemy.ext.baked',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\lib\\site-packages\\sqlalchemy\\ext\\baked.py',
    'PYMODULE'),
   ('sqlalchemy.dialects.sybase',
    'c:\\users\\emile djida '
@@ -2028,21 +2034,6 @@
    'c:\\users\\emile djida '
    'g\\miniconda3\\envs\\cename-api\\api-ms-win-crt-locale-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-crt-runtime-l1-1-0.dll',
-   'c:\\users\\emile djida '
-   'g\\miniconda3\\envs\\cename-api\\api-ms-win-crt-runtime-l1-1-0.dll',
-   'BINARY'),
-  ('VCRUNTIME140.dll',
-   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\VCRUNTIME140.dll',
-   'BINARY'),
-  ('api-ms-win-crt-math-l1-1-0.dll',
-   'c:\\users\\emile djida '
-   'g\\miniconda3\\envs\\cename-api\\api-ms-win-crt-math-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-stdio-l1-1-0.dll',
-   'c:\\users\\emile djida '
-   'g\\miniconda3\\envs\\cename-api\\api-ms-win-crt-stdio-l1-1-0.dll',
-   'BINARY'),
   ('api-ms-win-crt-heap-l1-1-0.dll',
    'c:\\users\\emile djida '
    'g\\miniconda3\\envs\\cename-api\\api-ms-win-crt-heap-l1-1-0.dll',
@@ -2050,136 +2041,151 @@
   ('python36.dll',
    'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\python36.dll',
    'BINARY'),
+  ('VCRUNTIME140.dll',
+   'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('api-ms-win-crt-stdio-l1-1-0.dll',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-crt-stdio-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-math-l1-1-0.dll',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-crt-math-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-runtime-l1-1-0.dll',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-crt-runtime-l1-1-0.dll',
+   'BINARY'),
   ('ucrtbase.dll',
    'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\ucrtbase.dll',
-   'BINARY'),
-  ('api-ms-win-crt-convert-l1-1-0.dll',
-   'c:\\users\\emile djida '
-   'g\\miniconda3\\envs\\cename-api\\api-ms-win-crt-convert-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-string-l1-1-0.dll',
-   'c:\\users\\emile djida '
-   'g\\miniconda3\\envs\\cename-api\\api-ms-win-crt-string-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-time-l1-1-0.dll',
-   'c:\\users\\emile djida '
-   'g\\miniconda3\\envs\\cename-api\\api-ms-win-crt-time-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-conio-l1-1-0.dll',
-   'c:\\users\\emile djida '
-   'g\\miniconda3\\envs\\cename-api\\api-ms-win-crt-conio-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-crt-environment-l1-1-0.dll',
    'c:\\users\\emile djida '
    'g\\miniconda3\\envs\\cename-api\\api-ms-win-crt-environment-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-crt-process-l1-1-0.dll',
-   'c:\\users\\emile djida '
-   'g\\miniconda3\\envs\\cename-api\\api-ms-win-crt-process-l1-1-0.dll',
-   'BINARY'),
   ('api-ms-win-crt-filesystem-l1-1-0.dll',
    'c:\\users\\emile djida '
    'g\\miniconda3\\envs\\cename-api\\api-ms-win-crt-filesystem-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-processthreads-l1-1-0.dll',
+  ('api-ms-win-crt-time-l1-1-0.dll',
    'c:\\users\\emile djida '
-   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-processthreads-l1-1-0.dll',
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-crt-time-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-handle-l1-1-0.dll',
+  ('api-ms-win-crt-string-l1-1-0.dll',
    'c:\\users\\emile djida '
-   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-handle-l1-1-0.dll',
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-crt-string-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-convert-l1-1-0.dll',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-crt-convert-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-conio-l1-1-0.dll',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-crt-conio-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-process-l1-1-0.dll',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-crt-process-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-file-l1-1-0.dll',
    'c:\\users\\emile djida '
    'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-file-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-namedpipe-l1-1-0.dll',
-   'c:\\users\\emile djida '
-   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-namedpipe-l1-1-0.dll',
-   'BINARY'),
   ('api-ms-win-core-interlocked-l1-1-0.dll',
    'c:\\users\\emile djida '
    'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-interlocked-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-datetime-l1-1-0.dll',
-   'c:\\users\\emile djida '
-   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-datetime-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-file-l1-2-0.dll',
-   'c:\\users\\emile djida '
-   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-file-l1-2-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-debug-l1-1-0.dll',
-   'c:\\users\\emile djida '
-   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-debug-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-rtlsupport-l1-1-0.dll',
-   'c:\\users\\emile djida '
-   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-rtlsupport-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-string-l1-1-0.dll',
-   'c:\\users\\emile djida '
-   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-string-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-localization-l1-2-0.dll',
-   'c:\\users\\emile djida '
-   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-localization-l1-2-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-synch-l1-1-0.dll',
-   'c:\\users\\emile djida '
-   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-synch-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-synch-l1-2-0.dll',
-   'c:\\users\\emile djida '
-   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-synch-l1-2-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-profile-l1-1-0.dll',
-   'c:\\users\\emile djida '
-   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-profile-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-processenvironment-l1-1-0.dll',
-   'c:\\users\\emile djida '
-   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-processenvironment-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-errorhandling-l1-1-0.dll',
-   'c:\\users\\emile djida '
-   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-errorhandling-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-processthreads-l1-1-1.dll',
-   'c:\\users\\emile djida '
-   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-processthreads-l1-1-1.dll',
-   'BINARY'),
-  ('api-ms-win-core-libraryloader-l1-1-0.dll',
-   'c:\\users\\emile djida '
-   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-libraryloader-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-util-l1-1-0.dll',
-   'c:\\users\\emile djida '
-   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-util-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-file-l2-1-0.dll',
    'c:\\users\\emile djida '
    'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-file-l2-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-console-l1-1-0.dll',
+  ('api-ms-win-core-timezone-l1-1-0.dll',
    'c:\\users\\emile djida '
-   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-console-l1-1-0.dll',
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-timezone-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-sysinfo-l1-1-0.dll',
+  ('api-ms-win-core-rtlsupport-l1-1-0.dll',
    'c:\\users\\emile djida '
-   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-sysinfo-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-memory-l1-1-0.dll',
-   'c:\\users\\emile djida '
-   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-memory-l1-1-0.dll',
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-rtlsupport-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-heap-l1-1-0.dll',
    'c:\\users\\emile djida '
    'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-heap-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-timezone-l1-1-0.dll',
+  ('api-ms-win-core-file-l1-2-0.dll',
    'c:\\users\\emile djida '
-   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-timezone-l1-1-0.dll',
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-file-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-2-0.dll',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-synch-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processenvironment-l1-1-0.dll',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-processenvironment-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-datetime-l1-1-0.dll',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-datetime-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-memory-l1-1-0.dll',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-memory-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-libraryloader-l1-1-0.dll',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-libraryloader-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-1.dll',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-processthreads-l1-1-1.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-0.dll',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-processthreads-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-1-0.dll',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-synch-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-string-l1-1-0.dll',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-string-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-sysinfo-l1-1-0.dll',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-sysinfo-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-debug-l1-1-0.dll',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-debug-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-namedpipe-l1-1-0.dll',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-namedpipe-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-errorhandling-l1-1-0.dll',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-errorhandling-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-console-l1-1-0.dll',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-console-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-handle-l1-1-0.dll',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-handle-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-profile-l1-1-0.dll',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-profile-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-util-l1-1-0.dll',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-util-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-localization-l1-2-0.dll',
+   'c:\\users\\emile djida '
+   'g\\miniconda3\\envs\\cename-api\\api-ms-win-core-localization-l1-2-0.dll',
    'BINARY'),
   ('_hashlib',
    'c:\\users\\emile djida g\\miniconda3\\envs\\cename-api\\DLLs\\_hashlib.pyd',
@@ -2241,7 +2247,7 @@
  [],
  [],
  [('base_library.zip',
-   'G:\\Projects\\cename-api\\build\\app\\base_library.zip',
+   'G:\\Projects\\cename\\cename-api\\build\\app\\base_library.zip',
    'DATA'),
   ('Include\\pyconfig.h',
    'c:\\users\\emile djida '

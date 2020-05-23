@@ -42,9 +42,10 @@ class Update_batch(BaseResource):
         if data != "":
             json_data = json.loads(data)
             batch_no = json_data['batch_no']
-            
+
             _batch = Batch.query.get(batch_no)
             if _batch:
+                logging.info("Batch's new data preprocessing and update")
                 for k in json_data.keys():
                     try:
                         if k != "batch_no":
@@ -56,13 +57,13 @@ class Update_batch(BaseResource):
                         return {"messsage": "Unable to update batch at the moment"}, 500
                 try:
                     db.session.commit()
+                    logging.info("Batch updated successfully")
+                    return {"message": "batch updated successfully"}, 200
                 except Exception as e:
                     logging.error(str(e))
                     db.session.rollback()
                     return {"message": "Unable to update the batch at the moment"}, 500
 
-                logging.info("Batch updated successfully")
-                return {"message": "batch updated successfully"}, 200
             else:
                 logging.info("Invalid batch_no, batch not found")
                 return {"message": "no such batch"}, 500
@@ -80,6 +81,9 @@ class Delete_batch(BaseResource):
             bat = Batch.query.get(batch_no)
             if bat:    
                 try:
+                    logging.info("Deleting all child distributions")
+                    for dist in bat.distributions:
+                        db.session.delete(dist)
                     logging.info("Deleting batch")
                     db.session.delete(bat)
                     db.session.commit()

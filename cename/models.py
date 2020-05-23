@@ -49,7 +49,7 @@ class Batch(db.Model):
     available = db.Column(db.Integer, nullable=False)
     description = db.Column(db.Text(500), nullable=False)
 
-    distributions = db.relationship("Distribution", backref=db.backref('batch', cascade="all, delete", lazy=True))
+    distributions = db.relationship("Distribution", backref=db.backref('batch', cascade="all,delete", lazy=True))
     invoice_no = db.Column(db.String(50), db.ForeignKey('invoice.invoice_no'), nullable=False)
 
     def jsonify(self, detailed=False):
@@ -79,7 +79,7 @@ class Region(db.Model):
     region_name = db.Column(db.String(30), nullable=False)
 
     distributions = db.relationship("Distribution", \
-                    backref=db.backref('region', cascade="all, delete", \
+                    backref=db.backref('region', cascade="all,delete", \
                     lazy=True))
 
     def jsonify(self, detailed=False):
